@@ -22,6 +22,6 @@ jobs:
   #     open-pr: true
 
   build-preview:
-    needs: update-citations
-    if: needs.update-citations.outputs.changed == 'true'
+    # needs: update-citations
+    # if: needs.update-citations.outputs.changed == 'true'
     uses: ./.github/workflows/build-preview.yaml
