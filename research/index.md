@@ -2,19 +2,22 @@
 title: Research
 nav:
   order: 1
-  tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# 🔬 Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+[Google Scholar](http://scholar.google.com/citations?user=qNCTLV0AAAAJ) &nbsp; • &nbsp;
+[DBLP](https://dblp.org/pid/95/3056.html) &nbsp; • &nbsp;
+ORCID: [0000-0001-6732-7823](https://orcid.org/0000-0001-6732-7823) &nbsp; • &nbsp;
+[Paper With Code](https://paperswithcode.com/author/xinggang-wang) &nbsp; • &nbsp;
+[arXiv](https://arxiv.org/search/cs?searchtype=author&query=Wang,+X) &nbsp; • &nbsp;
+[Github](https://github.com/hustvl)
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="VisionMamba" style="rich" %}
 
 {% include section.html %}
 

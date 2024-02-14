@@ -1,18 +1,17 @@
 # site properties and page defaults
-title: hustvl
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: HUSTVL
+subtitle: HUST Vision Lab
+# description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
 footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@hustvl.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: xgwang@hust.edu.cn
+  orcid: 0000-0001-6732-7823
+  google-scholar: qNCTLV0AAAAJ
   github: hustvl
-  twitter: hustvl
-  youtube: hustvl
+  twitter: XinggangWang
 
 ### jekyll settings
 

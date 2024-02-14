@@ -14,8 +14,8 @@ permissions:
   pull-requests: write
 
 jobs:
-  update-citations:
-    uses: ./.github/workflows/update-citations.yaml
+  # update-citations:
+  #   uses: ./.github/workflows/update-citations.yaml
 
   build-preview:
     needs: update-citations

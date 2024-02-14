@@ -3,19 +3,19 @@
 
 // colors
 [data-dark="false"] {
-  --primary: #0ea5e9;
-  --secondary: #7dd3fc;
-  --text: #000000;
-  --background: #ffffff;
-  --background-alt: #fafafa;
+  --primary: #6750a4;
+  --secondary: #eaddff;
+  --text: #1D1B20;
+  --background: #fefefe;
+  --background-alt: #f8f8f8;
   --light-gray: #e0e0e0;
   --gray: #808080;
   --overlay: #00000020;
 }
 [data-dark="true"] {
-  --primary: #0ea5e9;
-  --secondary: #075985;
-  --text: #ffffff;
+  --primary: #d0bcff;
+  --secondary: #4f378b;
+  --text: #e6e0e9;
   --background: #181818;
   --background-alt: #1c1c1c;
   --light-gray: #404040;
@@ -25,9 +25,9 @@
 
 :root {
   // font families
-  --title: "Barlow", sans-serif;
-  --heading: "Barlow", sans-serif;
-  --body: "Barlow", sans-serif;
+  --title: "Ubuntu", sans-serif;
+  --heading: "Ubuntu", sans-serif;
+  --body: "Noto Sans", sans-serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
@@ -46,6 +46,6 @@
   --spacing: 2;
 
   // effects
-  --rounded: 3px;
-  --shadow: 0 0 10px 0 var(--overlay);
+  --rounded: 12px;
+  --shadow: 0 0 0px 0 var(--overlay);
 }
