@@ -17,7 +17,7 @@ nav:
 {% include list.html data="members" component="portrait" filters="role: phd" %}
 {% include list.html data="members" component="portrait" filters="role: ms" %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background="images/bg_deep_neural_network.webp" dark=true %}
 
 Join us in pushing the boundaries of innovation and discovery at our lab, where collaborative minds and cutting-edge research come together to make a meaningful impact.
 
