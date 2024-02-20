@@ -223,9 +223,9 @@ package:
   text: Package
   # tooltip: Package
 
-repo:
+code:
   icon: fa-solid fa-code
-  text: Repository
+  text: Code
 
 project_page:
   icon: fa-solid fa-globe

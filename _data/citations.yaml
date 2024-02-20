@@ -1,16 +1,2641 @@
-- id: ViTMatte
-  title: 'ViTMatte: Boosting image matting with pre-trained plain vision transformers'
+- id: bai2009active
+  title: Active skeleton for non-rigid object detection
+  authors:
+  - Xiang Bai
+  - Xinggang Wang
+  - Longin Jan Latecki
+  - Wenyu Liu
+  - Zhuowen Tu
+  publisher: ICCV 2009
+  date: 2009-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/5459188/
+
+- id: wang2011feature
+  title: Feature context for image classification and object detection
+  authors:
+  - Xinggang Wang
+  - Xiang Bai
+  - Wenyu Liu
+  - Longin Jan Latecki
+  publisher: CVPR 2011
+  date: 2011-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/5995696/
+
+- id: wang2010object
+  title: Object recognition using junctions
+  authors:
+  - Bo Wang
+  - Xiang Bai
+  - Xinggang Wang
+  - Wenyu Liu
+  - Zhuowen Tu
+  publisher: ECCV 2010
+  date: 2010-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-642-15555-0_2
+
+- id: bai2010co
+  title: Co-transduction for shape retrieval
+  authors:
+  - Xiang Bai
+  - Bo Wang
+  - Xinggang Wang
+  - Wenyu Liu
+  - Zhuowen Tu
+  publisher: ECCV 2010
+  date: 2010-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/6030930/
+
+- id: wang2011maximal
+  title: Maximal cliques that satisfy hard constraints with application to deformable object model learning
+  authors:
+  - Xinggang Wang
+  - Xiang Bai
+  - Xingwei Yang
+  - Wenyu Liu
+  - Longin Latecki
+  publisher: NeurIPS 2011
+  date: 2011-01-01
+  link: https://proceedings.neurips.cc/paper/2011/hash/e6b4b2a746ed40e1af829d1fa82daa10-Abstract.html
+
+- id: wang2013max
+  title: Max-margin multiple-instance dictionary learning, 2013
+  authors:
+  - Xinggang Wang
+  - Baoyuan Wang
+  - Xiang Bai
+  - Wenyu Liu
+  - Zhuowen Tu
+  publisher: ICML 2013
+  date: 2013-01-01
+  link: https://proceedings.mlr.press/v28/wang13d.html
+
+- id: wang2014robust
+  title: Robust subspace discovery via relaxed rank minimization
+  authors:
+  - Xinggang Wang
+  - Zhengdong Zhang
+  - Yi Ma
+  - Xiang Bai
+  - Wenyu Liu
+  - Zhuowen Tu
+  publisher: Neural Computation, 2014
+  date: 2014-01-01
+  link: https://direct.mit.edu/neco/article-abstract/26/3/611/7961
+
+- id: wang2012adjacent
+  title: Adjacent coding for image classification
+  authors:
+  - Yueming Wang
+  - Xinggang Wang
+  - Shaojun Zhu
+  - Xiang Bai
+  - Wenyu Liu
+  publisher: ICPR 2012
+  date: 2012-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/6460417/
+
+- id: li2013disagreement
+  title: Disagreement-based multi-system tracking
+  authors:
+  - Quannan Li
+  - Xinggang Wang
+  - Wei Wang
+  - Yuan Jiang
+  - Zhi-Hua Zhou
+  - Zhuowen Tu
+  publisher: ACCV 2012 Workshops
+  date: 2013-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-642-37484-5_27
+
+- id: wang2014bag
+  title: Bag of contour fragments for robust shape classification
+  authors:
+  - Xinggang Wang
+  - Bin Feng
+  - Xiang Bai
+  - Wenyu Liu
+  - Longin Jan Latecki
+  publisher: Pattern Recognition, 2014
+  date: 2014-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0031320313005426
+
+- id: qiu2014scale
+  title: Scale-space sift flow
+  authors:
+  - Weichao Qiu
+  - Xinggang Wang
+  - Xiang Bai
+  - Alan Yuille
+  - Zhuowen Tu
+  publisher: WACV 2014
+  date: 2014-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/6835734/
+
+- id: guo2014robust
+  title: Robust foreground detection using smoothness and arbitrariness constraints
+  authors:
+  - Xiaojie Guo
+  - Xinggang Wang
+  - Liang Yang
+  - Xiaochun Cao
+  - Yi Ma
+  publisher: ECCV 2014
+  date: 2014-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-319-10584-0_35
+
+- id: bai2014shape
+  title: "Shape vocabulary: A robust and efficient shape representation for shape matching"
+  authors:
+  - Xiang Bai
+  - Cong Rao
+  - Xinggang Wang
+  publisher: TIP, 2014
+  date: 2014-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/6849978/
+
+- id: bai2015multiple
+  title: Multiple stage residual model for accurate image classification
+  authors:
+  - Song Bai
+  - Xinggang Wang
+  - Cong Yao
+  - Xiang Bai
+  publisher: ACCV 2014
+  date: 2015-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-319-16865-4_28
+
+- id: zhu2016deep
+  title: Deep learning representation using autoencoder for 3D shape retrieval
+  authors:
+  - Zhuotun Zhu
+  - Xinggang Wang
+  - Song Bai
+  - Cong Yao
+  - Xiang Bai
+  publisher: Neurocomputing, 2016
+  date: 2016-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0925231216301047
+
+- id: shen2015deepcontour
+  title: "Deepcontour: A deep convolutional feature learned by positive-sharing loss for contour detection"
+  authors:
+  - Wei Shen
+  - Xinggang Wang
+  - Yan Wang
+  - Xiang Bai
+  - Zhijiang Zhang
+  publisher: CVPR 2015
+  date: 2015-01-01
+  link: http://openaccess.thecvf.com/content_cvpr_2015/html/Shen_DeepContour_A_Deep_2015_CVPR_paper.html
+
+- id: bai2015beyond
+  title: "Beyond diffusion process: Neighbor set similarity for fast re-ranking"
+  authors:
+  - Xiang Bai
+  - Song Bai
+  - Xinggang Wang
+  publisher: Information Sciences, 2015
+  date: 2015-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0020025515005150
+
+- id: shi2016robust
+  title: Robust scene text recognition with automatic rectification
+  authors:
+  - Baoguang Shi
+  - Xinggang Wang
+  - Pengyuan Lyu
+  - Cong Yao
+  - Xiang Bai
+  publisher: CVPR 2016
+  date: 2016-01-01
+  link: https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/Shi_Robust_Scene_Text_CVPR_2016_paper.html
+
+- id: wang2015relaxed
+  title: Relaxed multiple-instance SVM with application to object discovery
+  authors:
+  - Xinggang Wang
+  - Zhuotun Zhu
+  - Cong Yao
+  - Xiang Bai
+  publisher: ICCV 2015
+  date: 2015-01-01
+  link: https://www.cv-foundation.org/openaccess/content_iccv_2015/html/Wang_Relaxed_Multiple-Instance_SVM_ICCV_2015_paper.html
+
+- id: hu2015learning
+  title: Learning discriminative pattern for real-time car brand recognition
+  authors:
+  - Chuanping Hu
+  - Xiang Bai
+  - Li Qi
+  - Xinggang Wang
+  - Gengjian Xue
+  - Lin Mei
+  publisher: IEEE Transactions on Intelligent Transportation Systems, 2015
+  date: 2015-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/7130646/
+
+- id: wang2016unsupervised
+  title: Unsupervised local deep feature for image recognition
+  authors:
+  - Yang Wang
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: Information Sciences, 2016
+  date: 2016-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0020025516301268
+
+- id: liao2017textboxes
+  title: "Textboxes: A fast text detector with a single deep neural network"
+  authors:
+  - Minghui Liao
+  - Baoguang Shi
+  - Xiang Bai
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: AAAI 2017
+  date: 2017-01-01
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/11196
+
+- id: shen2016shape
+  title: Shape recognition by bag of skeleton-associated contour parts
+  authors:
+  - Wei Shen
+  - Yuan Jiang
+  - Wenjing Gao
+  - Dan Zeng
+  - Xinggang Wang
+  publisher: Pattern Recognition Letters, 2016
+  date: 2016-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0167865516000489
+
+- id: zhu2016traffic
+  title: Traffic sign detection and recognition using fully convolutional network guided proposals
+  authors:
+  - Yingying Zhu
+  - Chengquan Zhang
+  - Duoyou Zhou
+  - Xinggang Wang
+  - Xiang Bai
+  - Wenyu Liu
+  publisher: Neurocomputing, 2016
+  date: 2016-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S092523121630741X
+
+- id: wang2018revisiting
+  title: Revisiting multiple instance neural networks
+  authors:
+  - Xinggang Wang
+  - Yongluan Yan
+  - Peng Tang
+  - Xiang Bai
+  - Wenyu Liu
+  publisher: Pattern Recognition, 2018
+  date: 2018-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0031320317303382
+
+- id: feng2016depth
+  title: Depth-projection-map-based bag of contour fragments for robust hand gesture recognition
+  authors:
+  - Bin Feng
+  - Fangzi He
+  - Xinggang Wang
+  - Yongjiang Wu
+  - Hao Wang
+  - Sihua Yi
+  - Wenyu Liu
+  publisher: IEEE Transactions on Human-Machine Systems, 2017
+  date: 2017-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/7723831/
+
+- id: yi2016online
+  title: Online similarity learning for visual tracking
+  authors:
+  - Sihua Yi
+  - Nan Jiang
+  - Bin Feng
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: Information Sciences, 2016
+  date: 2016-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0020025516303437
+
+- id: tang2016learning
+  title: Learning multi-instance deep discriminative patterns for image classification
+  authors:
+  - Peng Tang
+  - Xinggang Wang
+  - Bin Feng
+  - Wenyu Liu
+  publisher: TIP, 2017
+  date: 2017-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/7792710/
+
+- id: yi2016individual
+  title: Individual adaptive metric learning for visual tracking
+  authors:
+  - Sihua Yi
+  - Nan Jiang
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: Neurocomputing, 2016
+  date: 2016-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0925231216001429
+
+- id: wang2016deep
+  title: Deep sketch feature for cross-domain image retrieval
+  authors:
+  - Xinggang Wang
+  - Xiong Duan
+  - Xiang Bai
+  publisher: Neurocomputing, 2016
+  date: 2016-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0925231216303198
+
+- id: wang2016location
+  title: Location-aware image classification
+  authors:
+  - Xinggang Wang
+  - Xin Yang
+  - Wenyu Liu
+  - Chen Duan
+  - Longin Jan Latecki
+  publisher: MMM 2016
+  date: 2016-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-319-27671-7_69
+
+- id: tang2017learning
+  title: Learning extremely shared middle-level image representation for scene classification
+  authors:
+  - Peng Tang
+  - Jin Zhang
+  - Xinggang Wang
+  - Bin Feng
+  - Fabio Roli
+  - Wenyu Liu
+  publisher: Knowledge and Information Systems, 2017
+  date: 2017-01-01
+  link: https://link.springer.com/article/10.1007/s10115-016-1015-z
+
+- id: duan2014thermodynamic
+  title: Thermodynamic design of Stirling engine using multi-objective particle swarm optimization algorithm
+  authors:
+  - Chen Duan
+  - Xinggang Wang
+  - Shuiming Shu
+  - Changwei Jing
+  - Huawei Chang
+  publisher: Energy Conversion and Management, 2014
+  date: 2014-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0196890414002982
+
+- id: tang2015fisher
+  title: Fisher vector with weakly-supervised Gaussian dictionary for scene classification
+  authors:
+  - Peng Tang
+  - Bin Feng
+  - Xinggang Wang
+  - Bi Li
+  - Sihua Yi
+  - Wenyu Liu
+  publisher: International Conference on Wireless Communications & Signal Processing (WCSP) 2015
+  date: 2015-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/7341114/
+
+- id: tang2017deep
+  title: Deep patch learning for weakly supervised object classification and discovery
+  authors:
+  - Peng Tang
+  - Xinggang Wang
+  - Zilong Huang
+  - Xiang Bai
+  - Wenyu Liu
+  publisher: Pattern Recognition, 2017
+  date: 2017-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0031320317301838
+
+- id: feng2016robust
+  title: Robust hand gesture recognition based on enhanced depth projection maps (eDPM)
+  authors:
+  - Bin Feng
+  - Huifen Luo
+  - Yongjiang Wu
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: International Conference on Wireless Communications & Signal Processing (WCSP) 2016
+  date: 2016-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/7752586/
+
+- id: song2015bag
+  title: Bag reference vector for multi-instance learning
+  authors:
+  - Hanqiang Song
+  - Zhuotun Zhu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2015-12-03
+  link: https://arxiv.org/abs/1512.00994
+
+- id: wang2017point
+  title: Point linking network for object detection
+  authors:
+  - Xinggang Wang
+  - Kaibing Chen
+  - Zilong Huang
+  - Cong Yao
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2017-06-12
+  link: https://arxiv.org/abs/1706.03646
+
+- id: yang2016ogb
+  title: "OGB: A distinctive and efficient feature for mobile augmented reality"
+  authors:
+  - Xin Yang
+  - Xinggang Wang
+  - Kwang-Ting Cheng
+  publisher: MMM 2016
+  date: 2016-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-319-27671-7_40
+
+- id: yi2012lung
+  title: Lung Image Classification using Locality-Constrained Linear Coding
+  authors:
+  - Meng Yi
+  - Tatyana Nuzhnaya
+  - Vasileios Megalooikonomou
+  - Xinggang Wang
+  - Longin Jan Latecki
+  - Mark Kohn
+  - Robert Steiner
+  publisher: MICCAI Workshop
+  date: 2012-01-01
+  link: https://xwcv.github.io/pubs/miccai11w.pdf
+
+- id: ma2017object
+  title: Object-level proposals
+  authors:
+  - Jianxiang Ma
+  - Anlong Ming
+  - Zilong Huang
+  - Xinggang Wang
+  - Yu Zhou
+  publisher: ICCV 2017
+  date: 2017-01-01
+  link: http://openaccess.thecvf.com/content_iccv_2017/html/Ma_Object-Level_Proposals_ICCV_2017_paper.html
+
+- id: yan2017joint
+  title: Joint classification loss and histogram loss for sketch-based image retrieval
+  authors:
+  - Yongluan Yan
+  - Xinggang Wang
+  - Xin Yang
+  - Xiang Bai
+  - Wenyu Liu
+  publisher: ICIG 2017
+  date: 2017-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-319-71607-7_21
+
+- id: li2018deepmitosis
+  title: "DeepMitosis: Mitosis detection via deep detection, verification and segmentation networks"
+  authors:
+  - Chao Li
+  - Xinggang Wang
+  - Wenyu Liu
+  - Longin Jan Latecki
+  publisher: Medical Image Analysis, 2018
+  date: 2018-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S1361841517301834
+
+- id: wang2017searching
+  title: "Searching for prostate cancer by fully automated magnetic resonance imaging classification: deep learning versus non-deep learning"
+  authors:
+  - Xinggang Wang
+  - Wei Yang
+  - Jeffrey Weinreb
+  - Juan Han
+  - Qiubai Li
+  - Xiangchuang Kong
+  - Yongluan Yan
+  - Zan Ke
+  - Bo Luo
+  - Tao Liu
+  - Liang Wang
+  publisher: Scientific Reports, 2017
+  date: 2017-01-01
+  link: https://www.nature.com/articles/s41598-017-15720-y
+
+- id: huang2018weakly
+  title: Weakly-supervised semantic segmentation network with deep seeded region growing
+  authors:
+  - Zilong Huang
+  - Xinggang Wang
+  - Jiasi Wang
+  - Wenyu Liu
+  - Jingdong Wang
+  publisher: CVPR 2018
+  date: 2018-01-01
+  link: http://openaccess.thecvf.com/content_cvpr_2018/html/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.html
+
+- id: lin2019automated
+  title: Automated defect inspection of LED chip using deep convolutional neural network
+  authors:
+  - Hui Lin
+  - Bin Li
+  - Xinggang Wang
+  - Yufeng Shu
+  - Shuanglong Niu
+  publisher: Journal of Intelligent Manufacturing, 2019
+  date: 2019-01-01
+  link: https://link.springer.com/article/10.1007/s10845-018-1415-x
+
+- id: shen2014shape
+  title: Shape recognition by combining contour and skeleton into a mid-level representation
+  authors:
+  - Wei Shen
+  - Xinggang Wang
+  - Cong Yao
+  - Xiang Bai
+  publisher: CCPR 2014
+  date: 2014-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-662-45646-0_40
+
+- id: bai2014aggregating
+  title: Aggregating contour fragments for shape classification
+  authors:
+  - Song Bai
+  - Xinggang Wang
+  - Xiang Bai
+  publisher: ICIP 2014
+  date: 2014-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/7026063/
+
+- id: zhu2013traffic
+  title: Traffic sign classification using two-layer image representation
+  authors:
+  - Yingying Zhu
+  - Xinggang Wang
+  - Cong Yao
+  - Xiang Bai
+  publisher: ICIP 2013
+  date: 2013-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/6738774/
+
+- id: chen2018structured
+  title: Structured random forest for label distribution learning
+  authors:
+  - Mengting Chen
+  - Xinggang Wang
+  - Bin Feng
+  - Wenyu Liu
+  publisher: Neurocomputing, 2018
+  date: 2018-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0925231218310622
+
+- id: song2020unsupervised
+  title: "Unsupervised domain adaptive re-identification: Theory and practice"
+  authors:
+  - Liangchen Song
+  - Cheng Wang
+  - Lefei Zhang
+  - Bo Du
+  - Qian Zhang
+  - Chang Huang
+  - Xinggang Wang
+  publisher: Pattern Recognition, 2020
+  date: 2020-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S003132031930473X
+
+- id: tang2018weakly
+  title: Weakly supervised region proposal network and object detection
+  authors:
+  - Peng Tang
+  - Xinggang Wang
+  - Angtian Wang
+  - Yongluan Yan
+  - Wenyu Liu
+  - Junzhou Huang
+  - Alan Yuille
+  publisher: ECCV 2018
+  date: 2018-01-01
+  link: http://openaccess.thecvf.com/content_ECCV_2018/html/Peng_Tang_Weakly_Supervised_Region_ECCV_2018_paper.html
+
+- id: wang2018mancs
+  title: "Mancs: A multi-task attentional network with curriculum sampling for person re-identification"
+  authors:
+  - Cheng Wang
+  - Qian Zhang
+  - Chang Huang
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: ECCV 2018
+  date: 2018-01-01
+  link: http://openaccess.thecvf.com/content_ECCV_2018/html/Cheng_Wang_Mancs_A_Multi-task_ECCV_2018_paper.html
+
+- id: shi2018aster
+  title: "Aster: An attentional scene text recognizer with flexible rectification"
+  authors:
+  - Baoguang Shi
+  - Mingkun Yang
+  - Xinggang Wang
+  - Pengyuan Lyu
+  - Cong Yao
+  - Xiang Bai
+  publisher: TPAMI, 2018
+  date: 2018-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8395027/
+
+- id: yan2018deep
+  title: Deep multi-instance learning with dynamic pooling
+  authors:
+  - Yongluan Yan
+  - Xinggang Wang
+  - Xiaojie Guo
+  - Jiemin Fang
+  - Wenyu Liu
+  - Junzhou Huang
+  publisher: ACML 2018
+  date: 2018-01-01
+  link: https://proceedings.mlr.press/v95/yan18a.html
+
+- id: wang2018weakly
+  title: Weakly-and semi-supervised faster r-cnn with curriculum learning
+  authors:
+  - Jiasi Wang
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: ICPR 2018
+  date: 2018-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8546088/
+
+- id: li2018deep
+  title: Deep attention network for joint hand gesture localization and recognition using static RGB-D images
+  authors:
+  - Yuan Li
+  - Xinggang Wang
+  - Wenyu Liu
+  - Bin Feng
+  publisher: Information Sciences, 2018
+  date: 2018-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0020025518301063
+
+- id: fang2021eat
+  title: "EAT-NAS: Elastic architecture transfer for accelerating large-scale neural architecture search"
+  authors:
+  - Jiemin Fang
+  - Yukang Chen
+  - Xinbang Zhang
+  - Qian Zhang
+  - Chang Huang
+  - Gaofeng Meng
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: Science China Information Sciences, 2021
+  date: 2021-01-01
+  link: https://link.springer.com/article/10.1007/s11432-020-3112-8
+
+- id: huang2018pytorch
+  title: A pytorch semantic segmentation toolbox
+  authors:
+  - Zilong Huang
+  - Yunchao Wei
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: 
+  date: 2018-01-01
+  link: https://xwcv.github.io/pubs/toolbox.pdf
+
+- id: wang2013one
+  title: One-class multiple instance learning via robust PCA for common object discovery
+  authors:
+  - Xinggang Wang
+  - Zhengdong Zhang
+  - Yi Ma
+  - Xiang Bai
+  - Wenyu Liu
+  - Zhuowen Tu
+  publisher: ACCV 2012
+  date: 2013-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-642-37331-2_19
+
+- id: li2017neural
+  title: Neural features for pedestrian detection
+  authors:
+  - Chao Li
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: Neurocomputing, 2017
+  date: 2017-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0925231217302710
+
+- id: wang2012fan
+  title: Fan shape model for object detection
+  authors:
+  - Xinggang Wang
+  - Xiang Bai
+  - Tianyang Ma
+  - Wenyu Liu
+  - Longin Jan Latecki
+  publisher: CVPR 2012
+  date: 2012-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/6247670/
+
+- id: li2019weakly
+  title: Weakly supervised mitosis detection in breast histopathology images using concentric loss
+  authors:
+  - Chao Li
+  - Xinggang Wang
+  - Wenyu Liu
+  - Longin Jan Latecki
+  - Bo Wang
+  - Junzhou Huang
+  publisher: Medical image analysis, 2019
+  date: 2019-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S1361841519300118
+
+- id: tang2018deep
+  title: Deep FisherNet for image classification
+  authors:
+  - Peng Tang
+  - Xinggang Wang
+  - Baoguang Shi
+  - Xiang Bai
+  - Wenyu Liu
+  - Zhuowen Tu
+  publisher: IEEE Transactions on Neural Networks and Learning Systems, 2019
+  date: 2018-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8522050/
+
+- id: tang2019object
+  title: Object detection in videos by high quality object linking
+  authors:
+  - Peng Tang
+  - Chunyu Wang
+  - Xinggang Wang
+  - Wenyu Liu
+  - Wenjun Zeng
+  - Jingdong Wang
+  publisher: TPAMI, 2019
+  date: 2019-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8686124/
+
+- id: luo2019detect
+  title: "Detect or track: Towards cost-effective video object detection/tracking"
+  authors:
+  - Hao Luo
+  - Wenxuan Xie
+  - Xinggang Wang
+  - Wenjun Zeng
+  publisher: AAAI 2019
+  date: 2019-01-01
+  link: https://aaai.org/ojs/index.php/AAAI/article/download/4906/4779
+
+- id: huang2019mask
+  title: Mask scoring r-cnn
+  authors:
+  - Zhaojin Huang
+  - Lichao Huang
+  - Yongchao Gong
+  - Chang Huang
+  - Xinggang Wang
+  publisher: CVPR 2019
+  date: 2019-01-01
+  link: http://openaccess.thecvf.com/content_CVPR_2019/html/Huang_Mask_Scoring_R-CNN_CVPR_2019_paper.html
+
+- id: lei2019direct
+  title: Direct object recognition without line-of-sight using optical coherence
+  authors:
+  - Xin Lei
+  - Liangyu He
+  - Yixuan Tan
+  - Ken Xingze Wang
+  - Xinggang Wang
+  - Yihan Du
+  - Shanhui Fan
+  - Zongfu Yu
+  publisher: CVPR 2019
+  date: 2019-01-01
+  link: http://openaccess.thecvf.com/content_CVPR_2019/html/Lei_Direct_Object_Recognition_Without_Line-Of-Sight_Using_Optical_Coherence_CVPR_2019_paper.html
+
+- id: fang2020densely
+  title: Densely connected search space for more flexible neural architecture search
+  authors:
+  - Jiemin Fang
+  - Yuzhu Sun
+  - Qian Zhang
+  - Yuan Li
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: CVPR 2020
+  date: 2020-01-01
+  link: http://openaccess.thecvf.com/content_CVPR_2020/html/Fang_Densely_Connected_Search_Space_for_More_Flexible_Neural_Architecture_Search_CVPR_2020_paper.html
+
+- id: wang2019bag
+  title: Bag similarity network for deep multi-instance learning
+  authors:
+  - Xinggang Wang
+  - Yongluan Yan
+  - Peng Tang
+  - Wenyu Liu
+  - Xiaojie Guo
+  publisher: Information Sciences, 2019
+  date: 2019-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0020025519306826
+
+- id: luo2019object
+  title: Object detection in video with spatial-temporal context aggregation
+  authors:
+  - Hao Luo
+  - Lichao Huang
+  - Han Shen
+  - Yuan Li
+  - Chang Huang
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2019-07-11
+  link: https://arxiv.org/abs/1907.04988
+
+- id: zhou2019motion
+  title: Motion-guided spatial time attention for video object segmentation
+  authors:
+  - Qiang Zhou
+  - Zilong Huang
+  - Lichao Huang
+  - Yongchao Gong
+  - Han Shen
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: ICCV 2019 Workshop
+  date: 2019-01-01
+  link: http://openaccess.thecvf.com/content_ICCVW_2019/html/YouTube-VOS/Zhou_Motion-Guided_Spatial_Time_Attention_for_Video_Object_Segmentation_ICCVW_2019_paper.html
+
+- id: wang2019weakly
+  title: Weakly-and semi-supervised fast region-based CNN for object detection
+  authors:
+  - Xing-Gang Wang
+  - Jia-Si Wang
+  - Peng Tang
+  - Wen-Yu Liu
+  publisher: Journal of Computer Science and Technology, 2019
+  date: 2019-01-01
+  link: https://link.springer.com/article/10.1007/s11390-019-1975-z
+
+- id: zhou2019proposal
+  title: "Proposal, tracking and segmentation (pts): A cascaded network for video object segmentation"
+  authors:
+  - Qiang Zhou
+  - Zilong Huang
+  - Lichao Huang
+  - Yongchao Gong
+  - Han Shen
+  - Chang Huang
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2019-07-02
+  link: https://arxiv.org/abs/1907.01203
+
+- id: wang2020deep
+  title: Deep high-resolution representation learning for visual recognition
+  authors:
+  - Jingdong Wang
+  - Ke Sun
+  - Tianheng Cheng
+  - Borui Jiang
+  - Chaorui Deng
+  - Yang Zhao
+  - Dong Liu
+  - Yadong Mu
+  - Mingkui Tan
+  - Xinggang Wang
+  - Wenyu Liu
+  - Bin Xiao
+  publisher: TPAMI, 2020
+  date: 2020-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9052469/
+
+- id: niu2019defectgan
+  title: "DefectGAN: Weakly-supervised defect detection using generative adversarial network"
+  authors:
+  - Shuanlong Niu
+  - Hui Lin
+  - Tongzhi Niu
+  - Bin Li
+  - Xinggang Wang
+  publisher: 2019 IEEE 15th international conference on automation science and engineering (CASE)
+  date: 2019-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8843204/
+
+- id: wu2020iou
+  title: IoU-aware single-stage object detector for accurate localization
+  authors:
+  - Shengkai Wu
+  - Xiaoping Li
+  - Xinggang Wang
+  publisher: Image and Vision Computing, 2020
+  date: 2020-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0262885620300433
+
+- id: chen2020diversity
+  title: Diversity transfer network for few-shot learning
+  authors:
+  - Mengting Chen
+  - Yuxin Fang
+  - Xinggang Wang
+  - Heng Luo
+  - Yifeng Geng
+  - Xinyu Zhang
+  - Chang Huang
+  - Wenyu Liu
+  - Bo Wang
+  publisher: AAAI 2020
+  date: 2020-01-01
+  link: https://ojs.aaai.org/index.php/AAAI/article/view/6628
+
+- id: huang2019semantic
+  title: Semantic image segmentation by scale-adaptive networks
+  authors:
+  - Zilong Huang
+  - Chunyu Wang
+  - Xinggang Wang
+  - Wenyu Liu
+  - Jingdong Wang
+  publisher: TIP, 2020
+  date: 2019-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8879686/
+
+- id: xu2019cascaded
+  title: Cascaded boundary network for high-quality temporal action proposal generation
+  authors:
+  - Liang Xu
+  - Xinggang Wang
+  - Wenyu Liu
+  - Bin Feng
+  publisher: IEEE Transactions on Circuits and Systems for Video Technology, 2020
+  date: 2019-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8852682/
+
+- id: li2019pose
+  title: "Pose anchor: A single-stage hand keypoint detection network"
+  authors:
+  - Yuan Li
+  - Xinggang Wang
+  - Wenyu Liu
+  - Bin Feng
+  publisher: IEEE Transactions on Circuits and Systems for Video Technology, 2020
+  date: 2019-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8695062/
+
+- id: huang2021alignseg
+  title: "Alignseg: Feature-aligned segmentation networks"
+  authors:
+  - Zilong Huang
+  - Yunchao Wei
+  - Xinggang Wang
+  - Wenyu Liu
+  - Thomas S Huang
+  - Humphrey Shi
+  publisher: TPAMI, 2021
+  date: 2021-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9366388/
+
+- id: wang2020multi
+  title: Multi-scale multi-patch person re-identification with exclusivity regularized softmax
+  authors:
+  - Cheng Wang
+  - Liangchen Song
+  - Guoli Wang
+  - Qian Zhang
+  - Xinggang Wang
+  publisher: Neurocomputing, 2020
+  date: 2020-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0925231219316649
+
+- id: wang2020weakly
+  title: A weakly-supervised framework for COVID-19 classification and lesion localization from chest CT
+  authors:
+  - Xinggang Wang
+  - Xianbo Deng
+  - Qing Fu
+  - Qiang Zhou
+  - Jiapei Feng
+  - Hui Ma
+  - Wenyu Liu
+  - Chuansheng Zheng
+  publisher: TMI, 2020
+  date: 2020-01-01
+  link: https://ieeexplore.ieee.org/document/9097297
+
+- id: sebai2020maskmitosis
+  title: "MaskMitosis: a deep learning framework for fully supervised, weakly supervised, and unsupervised mitosis detection in histopathology images"
+  authors:
+  - Meriem Sebai
+  - Xinggang Wang
+  - Tianjiang Wang
+  publisher: Medical & Biological Engineering & Computing, 2020
+  date: 2020-01-01
+  link: https://link.springer.com/article/10.1007/s11517-020-02175-z
+
+- id: song2020learning
+  title: Learning from synthetic images via active pseudo-labeling
+  authors:
+  - Liangchen Song
+  - Yonghao Xu
+  - Lefei Zhang
+  - Bo Du
+  - Qian Zhang
+  - Xinggang Wang
+  publisher: TIP, 2020
+  date: 2020-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9086819/
+
+- id: niu2020defect
+  title: Defect image sample generation with GAN for improving defect recognition
+  authors:
+  - Shuanlong Niu
+  - Bin Li
+  - Xinggang Wang
+  - Hui Lin
+  publisher: IEEE Transactions on Automation Science and Engineering, 2020
+  date: 2020-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9000806/
+
+- id: cheng2020boundary
+  title: Boundary-preserving mask r-cnn
+  authors:
+  - Tianheng Cheng
+  - Xinggang Wang
+  - Lichao Huang
+  - Wenyu Liu
+  publisher: ECCV 2020
+  date: 2020-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-030-58568-6_39
+
+- id: xu2020deep
+  title: Deep multi-metric learning for text-independent speaker verification
+  authors:
+  - Jiwei Xu
+  - Xinggang Wang
+  - Bin Feng
+  - Wenyu Liu
+  publisher: Neurocomputing, 2020
+  date: 2020-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S092523122031016X
+
+- id: hu2020diffnet
+  title: "DiffNet: a learning to compare deep network for product recognition"
+  authors:
+  - Bin Hu
+  - Nuoya Zhou
+  - Qiang Zhou
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: IEEE Access, 2020
+  date: 2020-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8962053/
+
+- id: yang2019reducing
+  title: "Reducing the dilution: An analysis of the information sensitiveness of capsule network with a practical solution"
+  authors:
+  - Zonglin Yang
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2019-03-25
+  link: https://arxiv.org/abs/1903.10588
+
+- id: zhang2021fairmot
+  title: "FairMOT: On the Fairness of Detection and Re-Identification in Multiple Object Tracking"
+  authors:
+  - Yifu Zhang
+  - Chunyu Wang
+  - Xinggang Wang
+  - Zeng Wenjun
+  - Liu Wenyu
+  publisher: International Journal of Computer Vision, 2021
+  date: 2021-01-01
+  link: https://arxiv.org/abs/2004.01888
+
+- id: tang2017multiple
+  title: Multiple instance detection network with online instance classifier refinement
+  authors:
+  - Peng Tang
+  - Xinggang Wang
+  - Xiang Bai
+  - Wenyu Liu
+  publisher: CVPR 2017
+  date: 2017-01-01
+  link: http://openaccess.thecvf.com/content_cvpr_2017/html/Tang_Multiple_Instance_Detection_CVPR_2017_paper.html
+
+- id: sun2019high
+  title: High-resolution representations for labeling pixels and regions
+  authors:
+  - Ke Sun
+  - Yang Zhao
+  - Borui Jiang
+  - Tianheng Cheng
+  - Bin Xiao
+  - Dong Liu
+  - Yadong Mu
+  - Xinggang Wang
+  - Wenyu Liu
+  - Jingdong Wang
+  publisher: arXiv preprint
+  date: 2019-04-09
+  link: https://arxiv.org/abs/1904.04514
+
+- id: zhang2021efficientpose
+  title: "Efficientpose: Efficient human pose estimation with neural architecture search"
+  authors:
+  - Wenqiang Zhang
+  - Jiemin Fang
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: Computational Visual Media, 2021
+  date: 2021-01-01
+  link: https://link.springer.com/article/10.1007/s41095-021-0214-z
+
+- id: qin2020resizemix
+  title: "Resizemix: Mixing data with preserved object information and true labels"
+  authors:
+  - Jie Qin
+  - Jiemin Fang
+  - Qian Zhang
+  - Wenyu Liu
+  - Xingang Wang
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2020-12-21
+  link: https://arxiv.org/abs/2012.11101
+
+- id: huang2020ccnet
+  title: "Ccnet: Criss-cross attention for semantic segmentation"
+  authors:
+  - Zilong Huang
+  - Xinggang Wang
+  - Lichao Huang
+  - Chang Huang
+  - Yunchao Wei
+  - Wenyu Liu
+  publisher: TPAMI, 2020
+  date: 2020-01-01
+  link: http://openaccess.thecvf.com/content_ICCV_2019/html/Huang_CCNet_Criss-Cross_Attention_for_Semantic_Segmentation_ICCV_2019_paper.html
+
+- id: tang2018pcl
+  title: "Pcl: Proposal cluster learning for weakly supervised object detection"
+  authors:
+  - Peng Tang
+  - Xinggang Wang
+  - Song Bai
+  - Wei Shen
+  - Xiang Bai
+  - Wenyu Liu
+  - Alan Yuille
+  publisher: TPAMI, 2018
+  date: 2018-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/8493315/
+
+- id: fang2020fna++
+  title: "Fna++: Fast network adaptation via parameter remapping and architecture search"
+  authors:
+  - Jiemin Fang
+  - Yuzhu Sun
+  - Qian Zhang
+  - Kangjian Peng
+  - Yuan Li
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: TPAMI, 2020
+  date: 2020-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9293177/
+
+- id: fang2020fast
+  title: Fast neural network adaptation via parameter remapping and architecture search
+  authors:
+  - Jiemin Fang
+  - Yuzhu Sun
+  - Kangjian Peng
+  - Qian Zhang
+  - Yuan Li
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: International Conference on Learning Representation (ICLR), 2020
+  date: 2020-01-01
+  link: https://arxiv.org/abs/2001.02525
+
+- id: hu2021learning
+  title: Learning generalizable deep feature using triplet-batch-center loss for person re-identification
+  authors:
+  - Bin Hu
+  - Jiwei Xu
+  - Xinggang Wang
+  publisher: Sci China Inf Sci, 2021
+  date: 2021-01-01
+  link: http://scis.scichina.com/en/2021/120111.pdf
+
+- id: qi2021occluded
+  title: Occluded video instance segmentation
+  authors:
+  - Jiyang Qi
+  - Yan Gao
+  - Yao Hu
+  - Xinggang Wang
+  - Xiaoyu Liu
+  - Xiang Bai
+  - Serge Belongie
+  - Alan Yuille
+  - Philip HS Torr
+  - Song Bai
+  publisher: arXiv preprint
+  date: 2021-02-02
+  link: https://arxiv.org/abs/2102.01558
+
+- id: wang2021real
+  title: Real-time and accurate object detection in compressed video by long short-term feature aggregation
+  authors:
+  - Xinggang Wang
+  - Zhaojin Huang
+  - Bencheng Liao
+  - Lichao Huang
+  - Yongchao Gong
+  - Chang Huang
+  publisher: Computer Vision and Image Understanding, 2021
+  date: 2021-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S1077314221000321
+
+- id: feng2021deep
+  title: Deep graph cut network for weakly-supervised semantic segmentation
+  authors:
+  - Jiapei Feng
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: Science China Information Sciences, 2021
+  date: 2021-01-01
+  link: https://link.springer.com/article/10.1007/s11432-020-3065-4
+
+- id: zhou2021human
+  title: "Human de-occlusion: Invisible perception and recovery for humans"
+  authors:
+  - Qiang Zhou
+  - Shiyin Wang
+  - Yitong Wang
+  - Zilong Huang
+  - Xinggang Wang
+  publisher: CVPR 2021
+  date: 2021-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2021/html/Zhou_Human_De-Occlusion_Invisible_Perception_and_Recovery_for_Humans_CVPR_2021_paper.html
+
+- id: yang2021crossover
+  title: Crossover learning for fast online video instance segmentation
+  authors:
+  - Shusheng Yang
+  - Yuxin Fang
+  - Xinggang Wang
+  - Yu Li
+  - Chen Fang
+  - Ying Shan
+  - Bin Feng
+  - Wenyu Liu
+  publisher: ICCV 2021
+  date: 2021-01-01
+  link: http://openaccess.thecvf.com/content/ICCV2021/html/Yang_Crossover_Learning_for_Fast_Online_Video_Instance_Segmentation_ICCV_2021_paper.html
+
+- id: huang2021half
+  title: Half-real half-fake distillation for class-incremental semantic segmentation
+  authors:
+  - Zilong Huang
+  - Wentian Hao
+  - Xinggang Wang
+  - Mingyuan Tao
+  - Jianqiang Huang
+  - Wenyu Liu
+  - Xian-Sheng Hua
+  publisher: arXiv preprint
+  date: 2021-04-02
+  link: https://arxiv.org/abs/2104.00875
+
+- id: fang2021you
+  title: "You only look at one sequence: Rethinking transformer in vision through object detection"
+  authors:
+  - Yuxin Fang
+  - Bencheng Liao
+  - Xinggang Wang
+  - Jiemin Fang
+  - Jiyang Qi
+  - Rui Wu
+  - Jianwei Niu
+  - Wenyu Liu
+  publisher: NeurIPS 2021
+  date: 2021-01-01
+  link: https://proceedings.neurips.cc/paper/2021/hash/dc912a253d1e9ba40e2c597ed2376640-Abstract.html
+
+- id: fang2022msg
+  title: "Msg-transformer: Exchanging local spatial information by manipulating messenger tokens"
+  authors:
+  - Jiemin Fang
+  - Lingxi Xie
+  - Xinggang Wang
+  - Xiaopeng Zhang
+  - Wenyu Liu
+  - Qi Tian
+  publisher: CVPR 2022
+  date: 2022-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2022/html/Fang_MSG-Transformer_Exchanging_Local_Spatial_Information_by_Manipulating_Messenger_Tokens_CVPR_2022_paper.html
+
+- id: wang2021weakly
+  title: Weakly-supervised instance segmentation via class-agnostic learning with salient images
+  authors:
+  - Xinggang Wang
+  - Jiapei Feng
+  - Bin Hu
+  - Qi Ding
+  - Longjin Ran
+  - Xiaoxin Chen
+  - Wenyu Liu
+  publisher: CVPR 2021
+  date: 2021-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2021/html/Wang_Weakly-Supervised_Instance_Segmentation_via_Class-Agnostic_Learning_With_Salient_Images_CVPR_2021_paper.html
+
+- id: yang2021tracking
+  title: Tracking instances as queries
+  authors:
+  - Shusheng Yang
+  - Yuxin Fang
+  - Xinggang Wang
+  - Yu Li
+  - Ying Shan
+  - Bin Feng
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2021-06-22
+  link: https://arxiv.org/abs/2106.11963
+
+- id: fang2023makes
+  title: What Makes for Hierarchical Vision Transformer?
+  authors:
+  - Yuxin Fang
+  - Xinggang Wang
+  - Rui Wu
+  - Wenyu Liu
+  publisher: TPAMI, 2023
+  date: 2023-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/10147250/
+
+- id: zhang2021deep
+  title: Deep online correction for monocular visual odometry
+  authors:
+  - Jiaxin Zhang
+  - Wei Sui
+  - Xinggang Wang
+  - Wenming Meng
+  - Hongmei Zhu
+  - Qian Zhang
+  publisher: ICRA 2021
+  date: 2021-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9561642/
+
+- id: yang2021tracking
+  title: "Tracking Instances as Queries: The 2nd Place Solution for Video Instance Segmentation Challenge 2021"
+  authors:
+  - Shusheng Yang
+  - Yuxin Fang
+  - Xinggang Wang
+  - Yu Li
+  - Ying Shan
+  - Bin Feng
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2021-01-01
+  link: https://youtube-vos.org/assets/challenge/2021/reports/VIS_2_Yang.pdf
+
+- id: zhang2022voxeltrack
+  title: "Voxeltrack: Multi-person 3d human pose estimation and tracking in the wild"
+  authors:
+  - Yifu Zhang
+  - Chunyu Wang
+  - Xinggang Wang
+  - Wenyu Liu
+  - Wenjun Zeng
+  publisher: TPAMI, 2022
+  date: 2022-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9758679/
+
+- id: chen2021hierarchical
+  title: Hierarchical aggregation for 3d instance segmentation
+  authors:
+  - Shaoyu Chen
+  - Jiemin Fang
+  - Qian Zhang
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: ICCV 2021
+  date: 2021-01-01
+  link: http://openaccess.thecvf.com/content/ICCV2021/html/Chen_Hierarchical_Aggregation_for_3D_Instance_Segmentation_ICCV_2021_paper.html
+
+- id: xu2021bag
+  title: Bag of instances aggregation boosts self-supervised learning
+  authors:
+  - Haohang Xu
+  - Jiemin Fang
+  - Xiaopeng Zhang
+  - Lingxi Xie
+  - Xinggang Wang
+  - Wenrui Dai
+  - Hongka Xiong
+  - Qi Tian
+  publisher: arXiv preprint
+  date: 2021-07-04
+  link: https://scholar.google.com/scholar?cluster=16653698543055834939&hl=en&oi=scholarr
+
+- id: wu2022yolop
+  title: "Yolop: You only look once for panoptic driving perception"
+  authors:
+  - Dong Wu
+  - Man-Wen Liao
+  - Wei-Tian Zhang
+  - Xing-Gang Wang
+  - Xiang Bai
+  - Wen-Qing Cheng
+  - Wen-Yu Liu
+  publisher: Machine Intelligence Research, 2022
+  date: 2022-01-01
+  link: https://link.springer.com/article/10.1007/s11633-022-1339-y
+
+- id: fang2021instances
+  title: Instances as queries
+  authors:
+  - Yuxin Fang
+  - Shusheng Yang
+  - Xinggang Wang
+  - Yu Li
+  - Chen Fang
+  - Ying Shan
+  - Bin Feng
+  - Wenyu Liu
+  publisher: ICCV 2021
+  date: 2021-01-01
+  link: http://openaccess.thecvf.com/content/ICCV2021/html/Fang_Instances_As_Queries_ICCV_2021_paper.html
+
+- id: zhang2022bytetrack
+  title: "Bytetrack: Multi-object tracking by associating every detection box"
+  authors:
+  - Yifu Zhang
+  - Peize Sun
+  - Yi Jiang
+  - Dongdong Yu
+  - Fucheng Weng
+  - Zehuan Yuan
+  - Ping Luo
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: ECCV 2022
+  date: 2022-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-031-20047-2_1
+
+- id: qi2021occluded
+  title: "Occluded video instance segmentation: Dataset and ICCV 2021 challenge"
+  authors:
+  - Jiyang Qi
+  - Yan Gao
+  - Yao Hu
+  - Xinggang Wang
+  - Xiaoyu Liu
+  - Xiang Bai
+  - Serge Belongie
+  - Alan Yuille
+  - Philip HS Torr
+  - Song Bai
+  publisher: arXiv preprint
+  date: 2021-11-15
+  link: https://arxiv.org/abs/2111.07950
+
+- id: chen2021deep
+  title: "Deep Interactive Video Inpainting: An Invisibility Cloak for Harry Potter"
+  authors:
+  - Cheng Chen
+  - Jiayin Cai
+  - Yao Hu
+  - Xu Tang
+  - Xinggang Wang
+  - Chun Yuan
+  - Xiang Bai
+  - Song Bai
+  publisher: ACM MM 2021
+  date: 2021-01-01
+  link: https://dl.acm.org/doi/abs/10.1145/3474085.3475262
+
+- id: qi2021pyramid
+  title: Pyramid Self-attention for Semantic Segmentation
+  authors:
+  - Jiyang Qi
+  - Xinggang Wang
+  - Yao Hu
+  - Xu Tang
+  - Wenyu Liu
+  publisher: PRCV 2021
+  date: 2021-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-030-88004-0_39
+
+- id: niu2021region
+  title: Region-and strength-controllable GAN for defect generation and segmentation in industrial images
+  authors:
+  - Shuanlong Niu
+  - Bin Li
+  - Xinggang Wang
+  - Yaru Peng
+  publisher: IEEE Transactions on Industrial Informatics, 2021
+  date: 2021-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9612006/
+
+- id: niu2022defect
+  title: Defect attention template generation cycleGAN for weakly supervised surface defect segmentation
+  authors:
+  - Shuanlong Niu
+  - Bin Li
+  - Xinggang Wang
+  - Songping He
+  - Yaru Peng
+  publisher: Pattern Recognition, 2022
+  date: 2022-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0031320321005616
+
+- id: chen2019renas
+  title: "Renas: Reinforced evolutionary neural architecture search"
+  authors:
+  - Yukang Chen
+  - Gaofeng Meng
+  - Qian Zhang
+  - Shiming Xiang
+  - Chang Huang
+  - Lisen Mu
+  - Xinggang Wang
+  publisher: CVPR 2019
+  date: 2019-01-01
+  link: http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_RENAS_Reinforced_Evolutionary_Neural_Architecture_Search_CVPR_2019_paper.html
+
+- id: fang2022corrupted
+  title: Corrupted image modeling for self-supervised visual pre-training
+  authors:
+  - Yuxin Fang
+  - Li Dong
+  - Hangbo Bao
+  - Xinggang Wang
+  - Furu Wei
+  publisher: arXiv preprint
+  date: 2022-02-07
+  link: https://arxiv.org/abs/2202.03382
+
+- id: cheng2022sparse
+  title: Sparse instance activation for real-time instance segmentation
+  authors:
+  - Tianheng Cheng
+  - Xinggang Wang
+  - Shaoyu Chen
+  - Wenqiang Zhang
+  - Qian Zhang
+  - Chang Huang
+  - Zhaoxiang Zhang
+  - Wenyu Liu
+  publisher: CVPR 2022
+  date: 2022-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2022/html/Cheng_Sparse_Instance_Activation_for_Real-Time_Instance_Segmentation_CVPR_2022_paper.html
+
+- id: chen2022azinorm
+  title: "Azinorm: Exploiting the radial symmetry of point cloud for azimuth-normalized 3d perception"
+  authors:
+  - Shaoyu Chen
+  - Xinggang Wang
+  - Tianheng Cheng
+  - Wenqiang Zhang
+  - Qian Zhang
+  - Chang Huang
+  - Wenyu Liu
+  publisher: CVPR 2022
+  date: 2022-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2022/html/Chen_AziNorm_Exploiting_the_Radial_Symmetry_of_Point_Cloud_for_Azimuth-Normalized_CVPR_2022_paper.html
+
+- id: fang2023unleashing
+  title: Unleashing vanilla vision transformer with masked image modeling for object detection
+  authors:
+  - Yuxin Fang
+  - Shusheng Yang
+  - Shijie Wang
+  - Yixiao Ge
+  - Ying Shan
+  - Xinggang Wang
+  publisher: ICCV 2023
+  date: 2023-01-01
+  link: http://openaccess.thecvf.com/content/ICCV2023/html/Fang_Unleashing_Vanilla_Vision_Transformer_with_Masked_Image_Modeling_for_Object_ICCV_2023_paper.html
+
+- id: huang2021context
+  title: Context-sensitive temporal feature learning for gait recognition
+  authors:
+  - Xiaohu Huang
+  - Duowang Zhu
+  - Hao Wang
+  - Xinggang Wang
+  - Bo Yang
+  - Botao He
+  - Wenyu Liu
+  - Bin Feng
+  publisher: ICCV 2021
+  date: 2021-01-01
+  link: http://openaccess.thecvf.com/content/ICCV2021/html/Huang_Context-Sensitive_Temporal_Feature_Learning_for_Gait_Recognition_ICCV_2021_paper.html
+
+- id: fang2021neusample
+  title: "Neusample: Neural sample field for efficient view synthesis"
+  authors:
+  - Jiemin Fang
+  - Lingxi Xie
+  - Xinggang Wang
+  - Xiaopeng Zhang
+  - Wenyu Liu
+  - Qi Tian
+  publisher: arXiv preprint
+  date: 2021-11-30
+  link: https://arxiv.org/abs/2111.15552
+
+- id: zhang2022topformer
+  title: "TopFormer: Token pyramid transformer for mobile semantic segmentation"
+  authors:
+  - Wenqiang Zhang
+  - Zilong Huang
+  - Guozhong Luo
+  - Tao Chen
+  - Xinggang Wang
+  - Wenyu Liu
+  - Gang Yu
+  - Chunhua Shen
+  publisher: CVPR 2022
+  date: 2022-01-01
+  link: https://openaccess.thecvf.com/content/CVPR2022/html/Zhang_TopFormer_Token_Pyramid_Transformer_for_Mobile_Semantic_Segmentation_CVPR_2022_paper.html?ref=https://githubhelp.com
+
+- id: yang2022temporally
+  title: Temporally efficient vision transformer for video instance segmentation
+  authors:
+  - Shusheng Yang
+  - Xinggang Wang
+  - Yu Li
+  - Yuxin Fang
+  - Jiemin Fang
+  - Wenyu Liu
+  - Xun Zhao
+  - Ying Shan
+  publisher: CVPR 2022
+  date: 2022-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2022/html/Yang_Temporally_Efficient_Vision_Transformer_for_Video_Instance_Segmentation_CVPR_2022_paper.html
+
+- id: fang2022fast
+  title: Fast dynamic radiance fields with time-aware neural voxels
+  authors:
+  - Jiemin Fang
+  - Taoran Yi
+  - Xinggang Wang
+  - Lingxi Xie
+  - Xiaopeng Zhang
+  - Wenyu Liu
+  - Matthias Nießner
+  - Qi Tian
+  publisher: SIGGRAPH Asia 2022
+  date: 2022-01-01
+  link: https://dl.acm.org/doi/abs/10.1145/3550469.3555383
+
+- id: qi2022occluded
+  title: "Occluded video instance segmentation: A benchmark"
+  authors:
+  - Jiyang Qi
+  - Yan Gao
+  - Yao Hu
+  - Xinggang Wang
+  - Xiaoyu Liu
+  - Xiang Bai
+  - Serge Belongie
+  - Alan Yuille
+  - Philip HS Torr
+  - Song Bai
+  publisher: IJCV, 2022
+  date: 2022-01-01
+  link: https://link.springer.com/article/10.1007/s11263-022-01629-1
+
+- id: chen2022polar
+  title: Polar parametrization for vision-based surround-view 3d detection
+  authors:
+  - Shaoyu Chen
+  - Xinggang Wang
+  - Tianheng Cheng
+  - Qian Zhang
+  - Chang Huang
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2022-06-22
+  link: https://arxiv.org/abs/2206.10965
+
+- id: chen2022efficient
+  title: Efficient and robust 2d-to-bev representation learning via geometry-guided kernel transformer
+  authors:
+  - Shaoyu Chen
+  - Tianheng Cheng
+  - Xinggang Wang
+  - Wenming Meng
+  - Qian Zhang
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2022-06-09
+  link: https://arxiv.org/abs/2206.04584
+
+- id: liao2022maptr
+  title: "Maptr: Structured modeling and learning for online vectorized hd map construction"
+  authors:
+  - Bencheng Liao
+  - Shaoyu Chen
+  - Xinggang Wang
+  - Tianheng Cheng
+  - Qian Zhang
+  - Wenyu Liu
+  - Chang Huang
+  publisher: ICLR 2023
+  date: 2022-08-30
+  link: https://arxiv.org/abs/2208.14437
+
+- id: wang2020weakly
+  title: A weakly-supervised framework for COVID-19 classification and lesion localization from chest CT
+  authors:
+  - Xinggang Wang
+  - Xianbo Deng
+  - Qing Fu
+  - Qiang Zhou
+  - Jiapei Feng
+  - Hui Ma
+  - Wenyu Liu
+  - Chuansheng Zheng
+  publisher: TMI, 2020
+  date: 2020-01-01
+  link: https://ieeexplore.ieee.org/document/9097297
+
+- id: zhang2021fairmot
+  title: "Fairmot: On the fairness of detection and re-identification in multiple object tracking"
+  authors:
+  - Yifu Zhang
+  - Chunyu Wang
+  - Xinggang Wang
+  - Wenjun Zeng
+  - Wenyu Liu
+  publisher: IJCV, 2021
+  date: 2021-01-01
+  link: https://link.springer.com/article/10.1007/s11263-021-01513-4
+
+- id: gao2022aiatrack
+  title: "Aiatrack: Attention in attention for transformer visual tracking"
+  authors:
+  - Shenyuan Gao
+  - Chunluan Zhou
+  - Chao Ma
+  - Xinggang Wang
+  - Junsong Yuan
+  publisher: ECCV 2022
+  date: 2022-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-031-20047-2_9
+
+- id: liu2023vision
+  title: Vision-based uneven bev representation learning with polar rasterization and surface estimation
+  authors:
+  - Zhi Liu
+  - Shaoyu Chen
+  - Xiaojie Guo
+  - Xinggang Wang
+  - Tianheng Cheng
+  - Hongmei Zhu
+  - Qian Zhang
+  - Wenyu Liu
+  - Yi Zhang
+  publisher: CoRL 2023
+  date: 2023-01-01
+  link: https://proceedings.mlr.press/v205/liu23a.html
+
+- id: zhang2022robust
+  title: Robust multi-object tracking by marginal inference
+  authors:
+  - Yifu Zhang
+  - Chunyu Wang
+  - Xinggang Wang
+  - Wenjun Zeng
+  - Wenyu Liu
+  publisher: ECCV 2022
+  date: 2022-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-031-20047-2_2
+
+- id: huang2022star
+  title: "Star: Spatio-temporal augmented relation network for gait recognition"
+  authors:
+  - Xiaohu Huang
+  - Xinggang Wang
+  - Botao He
+  - Shan He
+  - Wenyu Liu
+  - Bin Feng
+  publisher: IEEE Transactions on Biometrics, Behavior, and Identity Science, 2022
+  date: 2022-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/9913216/
+
+- id: zhao2022self
+  title: "Self-supervised learning enables 3D digital subtraction angiography reconstruction from ultra-sparse 2D projection views: a multicenter study"
+  authors:
+  - Huangxuan Zhao
+  - Zhenghong Zhou
+  - Feihong Wu
+  - Dongqiao Xiang
+  - Hui Zhao
+  - Wei Zhang
+  - Lin Li
+  - Zhong Li
+  - Jia Huang
+  - Hongyao Hu
+  - Chengbo Liu
+  - Tao Wang
+  - Wenyu Liu
+  - Jinqiang Ma
+  - Fan Yang
+  - Xinggang Wang
+  - Chuansheng Zheng
+  publisher: Cell Reports Medicine, 2022
+  date: 2022-01-01
+  link: https://www.cell.com/cell-reports-medicine/pdf/S2666-3791(22)00330-5.pdf
+
+- id: zhao2022deep
+  title: Deep Learning-Based Optical-Resolution Photoacoustic Microscopy for In Vivo 3D Microvasculature Imaging and Segmentation
+  authors: 
+  - Huangxuan Zhao
+  - Jia Huang
+  - Qiang Zhou
+  - Ningbo Chen
+  - Liangjian Liu
+  - Xinggang Wang
+  - Tao Wang
+  - Leqing Chen
+  - Chengbo Liu
+  - Chuansheng Zheng
+  - others
+  publisher: Advanced Intelligent Systems, 2022
+  date: 2022-01-01
+  link: https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200004
+
+- id: hu2022joint
+  title: Joint weakly and fully supervised learning for surface defect segmentation from images
+  authors:
+  - Bin Hu
+  - Xinggang Wang
+  - Wenyong Yu
+  publisher: "Signal Processing: Image Communication, 2022"
+  date: 2022-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0923596522001084
+
+- id: xu2021bag
+  title: Bag of instances aggregation boosts self-supervised distillation
+  authors:
+  - Haohang Xu
+  - Jiemin Fang
+  - Xiaopeng Zhang
+  - Lingxi Xie
+  - Xinggang Wang
+  - Wenrui Dai
+  - Hongkai Xiong
+  - Qi Tian
+  publisher: arXiv preprint
+  date: 2021-07-04
+  link: https://arxiv.org/abs/2107.01691
+
+- id: niu2022local
+  title: Local point matching network for stabilized crowd counting and localization
+  authors:
+  - Lin Niu
+  - Xinggang Wang
+  - Chen Duan
+  - Qiongxia Shen
+  - Wenyu Liu
+  publisher: PRCV 2022
+  date: 2022-01-01
+  link: https://link.springer.com/chapter/10.1007/978-3-031-18907-4_44
+
+- id: zhang2022featurized
+  title: Featurized query r-cnn
+  authors:
+  - Wenqiang Zhang
+  - Tianheng Cheng
+  - Xinggang Wang
+  - Shaoyu Chen
+  - Qian Zhang
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2022-06-13
+  link: https://arxiv.org/abs/2206.06258
+
+- id: fang2023eva
+  title: "Eva: Exploring the limits of masked visual representation learning at scale"
+  authors:
+  - Yuxin Fang
+  - Wen Wang
+  - Binhui Xie
+  - Quan Sun
+  - Ledell Wu
+  - Xinggang Wang
+  - Tiejun Huang
+  - Xinlong Wang
+  - Yue Cao
+  publisher: CVPR 2023
+  date: 2023-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2023/html/Fang_EVA_Exploring_the_Limits_of_Masked_Visual_Representation_Learning_at_CVPR_2023_paper.html
+
+- id: wu2022iou
+  title: Iou-balanced loss functions for single-stage object detection
+  authors:
+  - Shengkai Wu
+  - Jinrong Yang
+  - Xinggang Wang
+  - Xiaoping Li
+  publisher: Pattern Recognition Letters, 2022
+  date: 2022-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0167865522000289
+
+- id: chen2023tinydet
+  title: "TinyDet: accurately detecting small objects within 1 GFLOPs"
+  authors:
+  - Shaoyu Chen
+  - Tianheng Cheng
+  - Jiemin Fang
+  - Qian Zhang
+  - Yuan Li
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: Science China Information Sciences, 2023
+  date: 2023-01-01
+  link: https://link.springer.com/article/10.1007/s11432-021-3504-4
+
+- id: jiang2022perceive
+  title: "Perceive, interact, predict: Learning dynamic and static clues for end-to-end motion prediction"
+  authors:
+  - Bo Jiang
+  - Shaoyu Chen
+  - Xinggang Wang
+  - Bencheng Liao
+  - Tianheng Cheng
+  - Jiajie Chen
+  - Helong Zhou
+  - Qian Zhang
+  - Wenyu Liu
+  - Chang Huang
+  publisher: arXiv preprint
+  date: 2022-12-05
+  link: https://arxiv.org/abs/2212.02181
+
+- id: feng2023weakly
+  title: Weakly-supervised semantic segmentation via online pseudo-mask correcting
+  authors:
+  - Jiapei Feng
+  - Xinggang Wang
+  - Te Li
+  - Shanshan Ji
+  - Wenyu Liu
+  publisher: Pattern Recognition Letters
+  date: 2023-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0167865522003531
+
+- id: wang2023simple
+  title: A Simple Adaptive Unfolding Network for Hyperspectral Image Reconstruction
+  authors:
+  - Junyu Wang
+  - Shijie Wang
+  - Wenyu Liu
+  - Zengqiang Zheng
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-01-24
+  link: https://arxiv.org/abs/2301.10208
+
+- id: liu2023pd
+  title: "Pd-quant: Post-training quantization based on prediction difference metric"
+  authors:
+  - Jiawei Liu
+  - Lin Niu
+  - Zhihang Yuan
+  - Dawei Yang
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: CVPR 2023
+  date: 2023-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2023/html/Liu_PD-Quant_Post-Training_Quantization_Based_on_Prediction_Difference_Metric_CVPR_2023_paper.html
+
+- id: cheng2023boxteacher
+  title: "Boxteacher: Exploring high-quality pseudo labels for weakly supervised instance segmentation"
+  authors:
+  - Tianheng Cheng
+  - Xinggang Wang
+  - Shaoyu Chen
+  - Qian Zhang
+  - Wenyu Liu
+  publisher: CVPR 2023
+  date: 2023-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2023/html/Cheng_BoxTeacher_Exploring_High-Quality_Pseudo_Labels_for_Weakly_Supervised_Instance_Segmentation_CVPR_2023_paper.html
+
+- id: liao2023lane
+  title: "Lane graph as path: Continuity-preserving path-wise modeling for online lane graph construction"
+  authors:
+  - Bencheng Liao
+  - Shaoyu Chen
+  - Bo Jiang
+  - Tianheng Cheng
+  - Qian Zhang
+  - Wenyu Liu
+  - Chang Huang
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-03-15
+  link: https://arxiv.org/abs/2303.08815
+
+- id: fang2023eva
+  title: "Eva-02: A visual representation for neon genesis"
+  authors:
+  - Yuxin Fang
+  - Quan Sun
+  - Xinggang Wang
+  - Tiejun Huang
+  - Xinlong Wang
+  - Yue Cao
+  publisher: arXiv preprint
+  date: 2023-03-20
+  link: https://arxiv.org/abs/2303.11331
+
+- id: jiang2023vad
+  title: "VAD: Vectorized Scene Representation for Efficient Autonomous Driving"
+  authors:
+  - Bo Jiang
+  - Shaoyu Chen
+  - Qing Xu
+  - Bencheng Liao
+  - Jiajie Chen
+  - Helong Zhou
+  - Qian Zhang
+  - Wenyu Liu
+  - Chang Huang
+  - Xinggang Wang
+  publisher: CVPR 2023
+  date: 2023-03-21
+  link: https://arxiv.org/abs/2303.12077
+
+- id: chen2023vma
+  title: "VMA: Divide-and-Conquer Vectorized Map Annotation System for Large-Scale Driving Scene"
+  authors:
+  - Shaoyu Chen
+  - Yunchi Zhang
+  - Bencheng Liao
+  - Jiafeng Xie
+  - Tianheng Cheng
+  - Wei Sui
+  - Qian Zhang
+  - Chang Huang
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-04-19
+  link: https://arxiv.org/abs/2304.09807
+
+- id: niu2023post
+  title: Post-Training Quantization for Object Detection
+  authors:
+  - Lin Niu
+  - Jiawei Liu
+  - Zhihang Yuan
+  - Dawei Yang
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2023-04-19
+  link: https://arxiv.org/abs/2304.09785
+
+- id: yuan2023rptq
+  title: "RPTQ: Reorder-based Post-training Quantization for Large Language Models"
+  authors:
+  - Zhihang Yuan
+  - Lin Niu
+  - Jiawei Liu
+  - Wenyu Liu
+  - Xinggang Wang
+  - Yuzhang Shang
+  - Guangyu Sun
+  - Qiang Wu
+  - Jiaxiang Wu
+  - Bingzhe Wu
+  publisher: arXiv preprint
+  date: 2023-04-03
+  link: https://arxiv.org/abs/2304.01089
+
+- id: yuan2023benchmarking
+  title: "Benchmarking the Reliability of Post-training Quantization: a Particular Focus on Worst-case Performance"
+  authors:
+  - Zhihang Yuan
+  - Jiawei Liu
+  - Jiaxiang Wu
+  - Dawei Yang
+  - Qiang Wu
+  - Guangyu Sun
+  - Wenyu Liu
+  - Xinggang Wang
+  - Bingzhe Wu
+  publisher: arXiv preprint
+  date: 2023-03-23
+  link: https://arxiv.org/abs/2303.13003
+
+- id: zhang2023mobileinst
+  title: "MobileInst: Video Instance Segmentation on the Mobile"
+  authors:
+  - Renhong Zhang
+  - Tianheng Cheng
+  - Shusheng Yang
+  - Haoyi Jiang
+  - Shuai Zhang
+  - Jiancheng Lyu
+  - Xin Li
+  - Xiaowen Ying
+  - Dashan Gao
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: AAAI 2024
+  date: 2023-03-30
+  link: https://arxiv.org/abs/2303.17594
+
+- id: yi2023generalizable
+  title: Generalizable Neural Voxels for Fast Human Radiance Fields
+  authors:
+  - Taoran Yi
+  - Jiemin Fang
+  - Xinggang Wang
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2023-03-27
+  link: https://arxiv.org/abs/2303.15387
+
+- id: huang2023graph
+  title: Graph contrastive learning for skeleton-based action recognition
+  authors:
+  - Xiaohu Huang
+  - Hao Zhou
+  - Jian Wang
+  - Haocheng Feng
+  - Junyu Han
+  - Errui Ding
+  - Jingdong Wang
+  - Xinggang Wang
+  - Wenyu Liu
+  - Bin Feng
+  publisher: arXiv preprint
+  date: 2023-01-26
+  link: https://arxiv.org/abs/2301.10900
+
+- id: wang2023openinst
+  title: "OpenInst: A Simple Query-Based Method for Open-World Instance Segmentation"
+  authors:
+  - Cheng Wang
+  - Guoli Wang
+  - Qian Zhang
+  - Peng Guo
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-03-28
+  link: https://arxiv.org/abs/2303.15859
+
+- id: zhang2023bytetrackv2
+  title: "ByteTrackV2: 2D and 3D Multi-Object Tracking by Associating Every Detection Box"
+  authors:
+  - Yifu Zhang
+  - Xinggang Wang
+  - Xiaoqing Ye
+  - Wei Zhang
+  - Jincheng Lu
+  - Xiao Tan
+  - Errui Ding
+  - Peize Sun
+  - Jingdong Wang
+  publisher: arXiv preprint
+  date: 2023-03-27
+  link: https://arxiv.org/abs/2303.15334
+
+- id: zhu2023weaktr
+  title: "WeakTr: Exploring Plain Vision Transformer for Weakly-supervised Semantic Segmentation"
+  authors:
+  - Lianghui Zhu
+  - Yingyue Li
+  - Jieming Fang
+  - Yan Liu
+  - Hao Xin
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-04-03
+  link: https://arxiv.org/abs/2304.01184
+
+- id: zhu2023understanding
+  title: Understanding Self-Supervised Pretraining with Part-Aware Representation Learning
+  authors:
+  - Jie Zhu
+  - Jiyang Qi
+  - Mingyu Ding
+  - Xiaokang Chen
+  - Ping Luo
+  - Xinggang Wang
+  - Wenyu Liu
+  - Leye Wang
+  - Jingdong Wang
+  publisher: arXiv preprint
+  date: 2023-01-27
+  link: https://arxiv.org/abs/2301.11915
+
+- id: xiang2023adseg
+  title: "ADSeg: A flap-attention-based deep learning approach for aortic dissection segmentation"
+  authors:
+  - Dongqiao Xiang
+  - Jiyang Qi
+  - Yiqing Wen
+  - Hui Zhao
+  - Xiaolin Zhang
+  - Jia Qin
+  - Xiaomeng Ma
+  - Yaguang Ren
+  - Hongyao Hu
+  - Wenyu Liu
+  - Fan Yang
+  - Huangxuan Zhao
+  - Xinggang Wang
+  - Chuansheng Zheng
+  publisher: Patterns
+  date: 2023-01-01
+  link: https://www.cell.com/patterns/pdf/S2666-3899(23)00067-3.pdf
+
+- id: fangsupplemental
+  title: "Supplemental Material of EVA: Exploring the Limits of Masked Visual Representation Learning at Scale"
+  authors:
+  - Yuxin Fang
+  - Wen Wang
+  - Binhui Xie
+  - Quan Sun
+  - Ledell Wu
+  - Xinggang Wang
+  - Tiejun Huang
+  - Xinlong Wang
+  - Yue Cao
+  publisher: CVPR 2023
+  date: 2023-01-01
+  link: https://openaccess.thecvf.com/content/CVPR2023/supplemental/Fang_EVA_Exploring_the_CVPR_2023_supplemental.pdf
+
+- id: zhang2023multi
+  title: Multi-level Multiple Instance Learning with Transformer for Whole Slide Image Classification
+  authors:
+  - Ruijie Zhang
+  - Qiaozhe Zhang
+  - Yingzhuang Liu
+  - Hao Xin
+  - Yan Liu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-06-08
+  link: https://arxiv.org/abs/2306.05029
+
+- id: liu2023sparsetrack
+  title: "SparseTrack: Multi-Object Tracking by Performing Scene Decomposition based on Pseudo-Depth"
+  authors:
+  - Zelin Liu
+  - Xinggang Wang
+  - Cheng Wang
+  - Wenyu Liu
+  - Xiang Bai
+  publisher: arXiv preprint
+  date: 2023-06-08
+  link: https://arxiv.org/abs/2306.05238
+
+- id: yao2023matte
+  title: "Matte Anything: Interactive Natural Image Matting with Segment Anything Models"
+  authors:
+  - Jingfeng Yao
+  - Xinggang Wang
+  - Lang Ye
+  - Wenyu Liu
+  publisher: arXiv preprint
+  date: 2023-06-07
+  link: https://arxiv.org/abs/2306.04121
+
+- id: xiong2023gaitgs
+  title: "GaitGS: Temporal Feature Learning in Granularity and Span Dimension for Gait Recognition"
+  authors:
+  - Haijun Xiong
+  - Yunze Deng
+  - Xiaohu Huang
+  - Xinggang Wang
+  - Wenyu Liu
+  - Bin Feng
+  publisher: arXiv preprint
+  date: 2023-05-31
+  link: https://arxiv.org/abs/2305.19700
+
+- id: yao2024vitmatte
+  title: "ViTMatte: Boosting image matting with pre-trained plain vision transformers"
   authors:
   - Jingfeng Yao
   - Xinggang Wang
   - Shusheng Yang
   - Baoyuan Wang
-  publisher: Information Fusion
-  date: '2024-03-01'
-  link: https://www.sciencedirect.com/science/article/abs/pii/S1566253523004074
+  publisher: Information Fusion, 2024
+  date: 2024-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S1566253523004074
 
-- id: VisionMamba
-  title: 'Vision mamba: Efficient visual representation learning with bidirectional state space model'
+- id: wang2023one
+  title: "ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities"
+  authors:
+  - Peng Wang
+  - Shijie Wang
+  - Junyang Lin
+  - Shuai Bai
+  - Xiaohuan Zhou
+  - Jingren Zhou
+  - Xinggang Wang
+  - Chang Zhou
+  publisher: arXiv preprint
+  date: 2023-05-18
+  link: https://arxiv.org/abs/2305.11172
+
+- id: wang2023range
+  title: A Range-Null Space Decomposition Approach for Fast and Flexible Spectral Compressive Imaging
+  authors:
+  - Junyu Wang
+  - Shijie Wang
+  - Ruijie Zhang
+  - Zengqiang Zheng
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-05-16
+  link: https://arxiv.org/abs/2305.09746
+
+- id: gan2023focalizing
+  title: Focalizing regions of biomarker relevance facilitates biomarker prediction on histopathological images
+  authors:
+  - Jiefeng Gan
+  - Hanchen Wang
+  - Hui Yu
+  - Zitong He
+  - Wenjuan Zhang
+  - Ke Ma
+  - Lianghui Zhu
+  - Yutong Bai
+  - Zongwei Zhou
+  - Alan Yullie
+  - Xiang Bai
+  - Mingwei Wang
+  - Dehua Yang
+  - Yanyan Chen
+  - Guoan Chen
+  - Joan Lasenby
+  - Chao Cheng
+  - Jia Wu
+  - Jianjun Zhang
+  - Xinggang Wang
+  - Yaobing Chen
+  - Guoping Wang
+  - Tian Xia
+  publisher: Iscience, 2023
+  date: 2023-01-01
+  link: https://www.cell.com/iscience/pdf/S2589-0042(23)01320-2.pdf
+
+- id: huang2023condition
+  title: Condition-Adaptive Graph Convolution Learning for Skeleton-Based Gait Recognition
+  authors:
+  - Xiaohu Huang
+  - Xinggang Wang
+  - Zhidianqiu Jin
+  - Bo Yang
+  - Botao He
+  - Bin Feng
+  - Wenyu Liu
+  publisher: TIP, 2023
+  date: 2023-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/10225695/
+
+- id: jiang2023symphonize
+  title: Symphonize 3D Semantic Scene Completion with Contextual Instance Queries
+  authors:
+  - Haoyi Jiang
+  - Tianheng Cheng
+  - Naiyu Gao
+  - Haoyang Zhang
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-06-27
+  link: https://arxiv.org/abs/2306.15670
+
+- id: liusupplementary
+  title: "Supplementary Material: Vision-based Uneven BEV Representation Learning with Polar Rasterization and Surface Estimation"
+  authors:
+  - Zhi Liu
+  - Shaoyu Chen
+  - Xiaojie Guo
+  - Xinggang Wang
+  - Tianheng Cheng
+  - Hongmei Zhu
+  - Qian Zhang
+  - Wenyu Liu
+  - Yi Zhang
+  publisher: CoRL 2023
+  date: 2022-01-01
+  link: https://proceedings.mlr.press/v205/liu23a/liu23a-supp.pdf
+
+- id: niu2023transformed
+  title: A transformed-feature-space data augmentation method for defect segmentation
+  authors:
+  - Shuanlong Niu
+  - Yaru Peng
+  - Bin Li
+  - Xinggang Wang
+  publisher: Computers in Industry, 2023
+  date: 2023-01-01
+  link: https://www.sciencedirect.com/science/article/pii/S0166361523000106
+
+- id: li2023boosting
+  title: Boosting Low-Data Instance Segmentation by Unsupervised Pre-training with Saliency Prompt
+  authors:
+  - Hao Li
+  - Dingwen Zhang
+  - Nian Liu
+  - Lechao Cheng
+  - Yalun Dai
+  - Chao Zhang
+  - Xinggang Wang
+  - Junwei Han
+  publisher: CVPR 2023
+  date: 2023-01-01
+  link: http://openaccess.thecvf.com/content/CVPR2023/html/Li_Boosting_Low-Data_Instance_Segmentation_by_Unsupervised_Pre-Training_With_Saliency_Prompt_CVPR_2023_paper.html
+
+- id: liao2023maptrv2
+  title: "Maptrv2: An end-to-end framework for online vectorized hd map construction"
+  authors:
+  - Bencheng Liao
+  - Shaoyu Chen
+  - Yunchi Zhang
+  - Bo Jiang
+  - Qian Zhang
+  - Wenyu Liu
+  - Chang Huang
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-08-10
+  link: https://arxiv.org/abs/2308.05736
+
+- id: fangappendix
+  title: Appendix of Unleashing Vanilla Vision Transformer with Masked Image Modeling for Object Detection
+  authors:
+  - Yuxin Fang
+  - Shusheng Yang
+  - Shijie Wang
+  - Yixiao Ge
+  - Ying Shan
+  - Xinggang Wang
+  publisher: ICCV 2023
+  date: 2023-01-01
+  link: https://openaccess.thecvf.com/content/ICCV2023/supplemental/Fang_Unleashing_Vanilla_Vision_ICCV_2023_supplemental.pdf
+
+- id: yang2023rils
+  title: "RILS: Masked Visual Reconstruction in Language Semantic Space"
+  authors:
+  - Shusheng Yang
+  - Yixiao Ge
+  - Kun Yi
+  - Dian Li
+  - Ying Shan
+  - Xiaohu Qie
+  - Xinggang Wang
+  publisher: CVPR 2023
+  date: 2023-01-01
+  link: https://openaccess.thecvf.com/content/CVPR2023/html/Yang_RILS_Masked_Visual_Reconstruction_in_Language_Semantic_Space_CVPR_2023_paper.html
+
+- id: wu20234d
+  title: 4d gaussian splatting for real-time dynamic scene rendering
+  authors:
+  - Guanjun Wu
+  - Taoran Yi
+  - Jiemin Fang
+  - Lingxi Xie
+  - Xiaopeng Zhang
+  - Wei Wei
+  - Wenyu Liu
+  - Qi Tian
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-10-12
+  link: https://arxiv.org/abs/2310.08528
+
+- id: yi2023gaussiandreamer
+  title: "Gaussiandreamer: Fast generation from text to 3d gaussian splatting with point cloud priors"
+  authors:
+  - Taoran Yi
+  - Jiemin Fang
+  - Guanjun Wu
+  - Lingxi Xie
+  - Xiaopeng Zhang
+  - Wenyu Liu
+  - Qi Tian
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-10-12
+  link: https://arxiv.org/abs/2310.08529
+
+- id: zhou2023tiavox
+  title: "TiAVox: Time-aware Attenuation Voxels for Sparse-view 4D DSA Reconstruction"
+  authors:
+  - Zhenghong Zhou
+  - Huangxuan Zhao
+  - Jiemin Fang
+  - Dongqiao Xiang
+  - Lei Chen
+  - Lingxia Wu
+  - Feihong Wu
+  - Wenyu Liu
+  - Chuansheng Zheng
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2023-09-05
+  link: https://arxiv.org/abs/2309.02318
+
+- id: bai2023touchstone
+  title: "Touchstone: Evaluating vision-language models by language models"
+  authors:
+  - Shuai Bai
+  - Shusheng Yang
+  - Jinze Bai
+  - Peng Wang
+  - Xingxuan Zhang
+  - Junyang Lin
+  - Xinggang Wang
+  - Chang Zhou
+  - Jingren Zhou
+  publisher: arXiv preprint
+  date: 2023-08-31
+  link: https://arxiv.org/abs/2308.16890
+
+- id: zhu2023judgelm
+  title: "Judgelm: Fine-tuned large language models are scalable judges"
+  authors:
+  - Lianghui Zhu
+  - Xinggang Wang
+  - Xinlong Wang
+  publisher: arXiv preprint
+  date: 2023-10-26
+  link: https://arxiv.org/abs/2310.17631
+
+- id: wang2023efficient
+  title: Efficient Task-specific Feature Re-fusion for More Accurate Object Detection and Instance Segmentation
+  authors:
+  - Cheng Wang
+  - Yuxin Fang
+  - Jiemin Fang
+  - Peng Guo
+  - Rui Wu
+  - He Huang
+  - Xinggang Wang
+  - Chang Huang
+  - Wenyu Liu
+  publisher: IEEE Transactions on Circuits and Systems for Video Technology, 2023
+  date: 2023-01-01
+  link: https://ieeexplore.ieee.org/abstract/document/10366318/
+
+- id: zhu2022multi
+  title: Multi-scale Context-aware Network with Transformer for Gait Recognition
+  authors:
+  - Duowang Zhu
+  - Xiaohu Huang
+  - Xinggang Wang
+  - Wenyu Liu
+  - Bin Feng
+  publisher: arXiv e-prints
+  date: 2022-01-01
+  link: https://www.researchgate.net/profile/Duowang-Zhu/publication/376957904_Multi-scale_Context-aware_Network_with_Transformer_for_Gait_Recognition/links/658ff1510bb2c7472b1ff6c5/Multi-scale-Context-aware-Network-with-Transformer-for-Gait-Recognition.pdf
+
+- id: wu2023tinyclip
+  title: "Tinyclip: Clip distillation via affinity mimicking and weight inheritance"
+  authors:
+  - Kan Wu
+  - Houwen Peng
+  - Zhenghong Zhou
+  - Bin Xiao
+  - Mengchen Liu
+  - Lu Yuan
+  - Hong Xuan
+  - Michael Valenzuela
+  - Xi Stephen Chen
+  - Xinggang Wang
+  - Hongyang Chao
+  - Han Hu
+  publisher: ICCV 2023
+  date: 2023-01-01
+  link: http://openaccess.thecvf.com/content/ICCV2023/html/Wu_TinyCLIP_CLIP_Distillation_via_Affinity_Mimicking_and_Weight_Inheritance_ICCV_2023_paper.html
+
+- id: zhu2024vision
+  title: "Vision mamba: Efficient visual representation learning with bidirectional state space model"
   authors:
   - Lianghui Zhu
   - Bencheng Liao
@@ -19,14 +2644,24 @@
   - Wenyu Liu
   - Xinggang Wang
   publisher: arXiv preprint
-  date: '2024-01-17'
+  date: 2024-01-17
   link: https://arxiv.org/abs/2401.09417
-  description: Recently the state space models (SSMs) with efficient hardware-aware designs, i.e., the Mamba deep learning model, have shown great potential for long sequence modeling. Meanwhile building efficient and generic vision backbones purely upon SSMs is an appealing direction. However, representing visual data is challenging for SSMs due to the position-sensitivity of visual data and the requirement of global context for visual understanding. In this paper, we show that the reliance on self-attention for visual representation learning is not necessary and propose a new generic vision backbone with bidirectional Mamba blocks (Vim), which marks the image sequences with position embeddings and compresses the visual representation with bidirectional state space models.
   image: https://github.com/hustvl/Vim/raw/main/assets/vim_pipeline_v1.9.png
   buttons:
-  - type: repo
+  - type: code
     link: https://github.com/hustvl/Vim
   - type: project_page
     link: https://github.com/hustvl/Vim
-  # tags:
-  # - Vision Foundation Models
+
+- id: cheng2024yolo
+  title: "YOLO-World: Real-Time Open-Vocabulary Object Detection"
+  authors:
+  - Tianheng Cheng
+  - Lin Song
+  - Yixiao Ge
+  - Wenyu Liu
+  - Xinggang Wang
+  - Ying Shan
+  publisher: arXiv preprint
+  date: 2024-01-30
+  link: https://arxiv.org/abs/2401.17270

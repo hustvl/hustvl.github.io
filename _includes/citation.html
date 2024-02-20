@@ -33,7 +33,7 @@
       {% endif %}
       class="citation-title"
     >
-      {{ citation.title | default: "[no title info]" }}
+      <b>{{ citation.title | default: "[no title info]" }}</b>
     </a>
 
     <div
@@ -54,10 +54,10 @@
     </div>
 
     <div class="citation-details">
-      {{ citation.publisher | default: "[no publisher info]" }}
-      &nbsp; · &nbsp;
-      {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
+      <b><i>{{ citation.publisher }}</i></b>
       <!-- &nbsp; · &nbsp;
+      {{ citation.date | default: "[no date info]" | date: "%d %b %Y" }}
+      &nbsp; · &nbsp;
       {{ citation.id | default: "[no id info]" }} -->
     </div>
 
