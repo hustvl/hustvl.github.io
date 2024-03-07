@@ -2533,6 +2533,24 @@
   date: 2023-08-31
   link: https://arxiv.org/abs/2308.16890
 
+- id: wu2023hdrhexplane
+  title: Fast High Dynamic Range Radiance Fields for Dynamic Scenes
+  authors:
+  - Guanjun Wu
+  - Taoran Yi
+  - Jiemin Fang
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: 3DV 2024
+  date: 2023-10-15
+  link: https://arxiv.org/abs/2401.06052
+  image: https://guanjunwu.github.io/media/hdrhexplane.gif
+  buttons:
+  - type: code
+    link: https://github.com/hustvl/HDR-HexPlane
+  - type: project_page
+    link: https://guanjunwu.github.io/HDR-HexPlane/
+
 - id: zhu2023judgelm
   title: "Judgelm: Fine-tuned large language models are scalable judges"
   authors:
@@ -2652,6 +2670,12 @@
   publisher: CVPR 2024
   date: 2024-02-27
   link: https://arxiv.org/abs/2310.08528
+  image: https://guanjunwu.github.io/media/4dgs.gif
+  buttons:
+  - type: code
+    link: https://github.com/hustvl/4DGaussians
+  - type: project_page
+    link: https://guanjunwu.github.io/4dgs
 
 - id: cheng2024yolo
   title: "YOLO-World: Real-Time Open-Vocabulary Object Detection"
