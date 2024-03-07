@@ -700,7 +700,7 @@
   - Yunchao Wei
   - Xinggang Wang
   - Wenyu Liu
-  publisher: 
+  publisher:
   date: 2018-01-01
   link: https://xwcv.github.io/pubs/toolbox.pdf
 
@@ -1861,7 +1861,7 @@
 
 - id: zhao2022deep
   title: Deep Learning-Based Optical-Resolution Photoacoustic Microscopy for In Vivo 3D Microvasculature Imaging and Segmentation
-  authors: 
+  authors:
   - Huangxuan Zhao
   - Jia Huang
   - Qiang Zhou
@@ -2398,7 +2398,7 @@
   - Yaobing Chen
   - Guoping Wang
   - Tian Xia
-  publisher: Iscience, 2023
+  publisher: iScience, 2023
   date: 2023-01-01
   link: https://www.cell.com/iscience/pdf/S2589-0042(23)01320-2.pdf
 
@@ -2415,19 +2415,6 @@
   publisher: TIP, 2023
   date: 2023-01-01
   link: https://ieeexplore.ieee.org/abstract/document/10225695/
-
-- id: jiang2023symphonize
-  title: Symphonize 3D Semantic Scene Completion with Contextual Instance Queries
-  authors:
-  - Haoyi Jiang
-  - Tianheng Cheng
-  - Naiyu Gao
-  - Haoyang Zhang
-  - Wenyu Liu
-  - Xinggang Wang
-  publisher: arXiv preprint
-  date: 2023-06-27
-  link: https://arxiv.org/abs/2306.15670
 
 - id: liusupplementary
   title: "Supplementary Material: Vision-based Uneven BEV Representation Learning with Polar Rasterization and Surface Estimation"
@@ -2512,37 +2499,6 @@
   publisher: CVPR 2023
   date: 2023-01-01
   link: https://openaccess.thecvf.com/content/CVPR2023/html/Yang_RILS_Masked_Visual_Reconstruction_in_Language_Semantic_Space_CVPR_2023_paper.html
-
-- id: wu20234d
-  title: 4d gaussian splatting for real-time dynamic scene rendering
-  authors:
-  - Guanjun Wu
-  - Taoran Yi
-  - Jiemin Fang
-  - Lingxi Xie
-  - Xiaopeng Zhang
-  - Wei Wei
-  - Wenyu Liu
-  - Qi Tian
-  - Xinggang Wang
-  publisher: arXiv preprint
-  date: 2023-10-12
-  link: https://arxiv.org/abs/2310.08528
-
-- id: yi2023gaussiandreamer
-  title: "Gaussiandreamer: Fast generation from text to 3d gaussian splatting with point cloud priors"
-  authors:
-  - Taoran Yi
-  - Jiemin Fang
-  - Guanjun Wu
-  - Lingxi Xie
-  - Xiaopeng Zhang
-  - Wenyu Liu
-  - Qi Tian
-  - Xinggang Wang
-  publisher: arXiv preprint
-  date: 2023-10-12
-  link: https://arxiv.org/abs/2310.08529
 
 - id: zhou2023tiavox
   title: "TiAVox: Time-aware Attenuation Voxels for Sparse-view 4D DSA Reconstruction"
@@ -2635,7 +2591,7 @@
   link: http://openaccess.thecvf.com/content/ICCV2023/html/Wu_TinyCLIP_CLIP_Distillation_via_Affinity_Mimicking_and_Weight_Inheritance_ICCV_2023_paper.html
 
 - id: zhu2024vision
-  title: "Vision mamba: Efficient visual representation learning with bidirectional state space model"
+  title: "Vision Mamba: Efficient Visual Representation Learning with Bidirectional State Space Model"
   authors:
   - Lianghui Zhu
   - Bencheng Liao
@@ -2653,6 +2609,50 @@
   - type: project_page
     link: https://github.com/hustvl/Vim
 
+- id: jiang2023symphonize
+  title: Symphonize 3D Semantic Scene Completion with Contextual Instance Queries
+  authors:
+  - Haoyi Jiang
+  - Tianheng Cheng
+  - Naiyu Gao
+  - Haoyang Zhang
+  - Wenyu Liu
+  - Xinggang Wang
+  publisher: CVPR 2024
+  date: 2024-02-27
+  link: https://arxiv.org/abs/2306.15670
+
+- id: yi2023gaussiandreamer
+  title: "Gaussiandreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors"
+  authors:
+  - Taoran Yi
+  - Jiemin Fang
+  - Guanjun Wu
+  - Lingxi Xie
+  - Xiaopeng Zhang
+  - Wenyu Liu
+  - Qi Tian
+  - Xinggang Wang
+  publisher: CVPR 2024
+  date: 2024-02-27
+  link: https://arxiv.org/abs/2310.08529
+
+- id: wu20234d
+  title: 4D Gaussian Splatting for Real-Time Dynamic Scene Rendering
+  authors:
+  - Guanjun Wu
+  - Taoran Yi
+  - Jiemin Fang
+  - Lingxi Xie
+  - Xiaopeng Zhang
+  - Wei Wei
+  - Wenyu Liu
+  - Qi Tian
+  - Xinggang Wang
+  publisher: CVPR 2024
+  date: 2024-02-27
+  link: https://arxiv.org/abs/2310.08528
+
 - id: cheng2024yolo
   title: "YOLO-World: Real-Time Open-Vocabulary Object Detection"
   authors:
@@ -2662,6 +2662,6 @@
   - Wenyu Liu
   - Xinggang Wang
   - Ying Shan
-  publisher: arXiv preprint
-  date: 2024-01-30
+  publisher: CVPR 2024
+  date: 2024-02-27
   link: https://arxiv.org/abs/2401.17270

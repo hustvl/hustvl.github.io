@@ -26,12 +26,12 @@
 {% endif %}
 {% assign url = site.location %}
 
-{% assign png = "images/icon.png" | file_exists %}
-{% assign jpg = "images/icon.jpg" | file_exists %}
+{% assign png = "images/assets/icon.png" | file_exists %}
+{% assign jpg = "images/assets/icon.jpg" | file_exists %}
 {% assign icon = png | default: jpg | relative_url %}
 
-{% assign jpg = "images/share.jpg" | file_exists %}
-{% assign png = "images/share.png" | file_exists %}
+{% assign jpg = "images/assets/share.jpg" | file_exists %}
+{% assign png = "images/assets/share.png" | file_exists %}
 {% assign share = jpg | default: png | relative_url %}
 
 {% assign published = page.date | date_to_xmlschema %}

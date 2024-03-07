@@ -1,13 +1,13 @@
-{% assign member = site.members 
+{% assign member = site.members
   | where_exp: "member", "member.slug == include.lookup"
   | first
   | default: include
 %}
 
 <div class="portrait-wrapper">
-  <a
+  <a 
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url }}"
+      href="javascript:void(0)"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
@@ -39,4 +39,33 @@
       </span>
     {% endif %}
   </a>
+
+  {% if member.homepage or member.google-scholar or member.github %}
+    <div class="portrait-links">
+      {% if member.homepage %}
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="{{ member.homepage }}" target="_blank" rel="noopener" title="Personal Website"
+            text-decoration-line="none">
+            <i class="fas fa-house"></i>
+          </a>
+        </div>
+      {% endif %}
+
+      {% if member.google-scholar %}
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="{{ member.google-scholar }}" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
+            <i class="fab fa-google"></i>
+          </a>
+        </div>
+      {% endif %}
+
+      {% if member.github %}
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="{{ member.github }}" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
 </div>

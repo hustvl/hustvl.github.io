@@ -79,7 +79,7 @@ Composed of exceptional researchers and led by renowned experts, our team is ded
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/assets/photo.jpg"
   link="team"
   title="Our Team"
   text=text
