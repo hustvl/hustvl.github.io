@@ -2655,6 +2655,10 @@
   publisher: CVPR 2024
   date: 2024-02-27
   link: https://arxiv.org/abs/2306.15670
+  image: https://github.com/hustvl/Symphonies/raw/main/assets/demo.gif
+  buttons:
+  - type: code
+    link: https://github.com/hustvl/Symphonies
 
 - id: yi2023gaussiandreamer
   title: "Gaussiandreamer: Fast Generation from Text to 3D Gaussian Splatting with Point Cloud Priors"
