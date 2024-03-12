@@ -1,6 +1,6 @@
 ---
 name: Haoyi Jiang
-image: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=_45BVtQAAAAJ&citpid=8
+image: images/members/hy_jiang.jpg
 role: phd
 
 google-scholar: https://scholar.google.com/citations?user=_45BVtQAAAAJ
