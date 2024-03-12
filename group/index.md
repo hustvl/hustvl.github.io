@@ -14,8 +14,8 @@ nav:
 
 ## Students
 
-{% include list_portrait.html data="members" component="portrait" filters="role: phd" style="tiny" %}
-{% include list_portrait.html data="members" component="portrait" filters="role: ms" style="tiny" %}
+{% include list_portrait.html data="members" component="portrait" filters="role: phd" style="small" %}
+{% include list_portrait.html data="members" component="portrait" filters="role: ms" style="small" %}
 
 {% include section.html background="images/assets/bg_deep_neural_network.webp" dark=true %}
 
@@ -34,4 +34,4 @@ Join us in pushing the boundaries of innovation and discovery at our lab, where 
 
 ## Alumni
 
-{% include list_portrait.html data="members" component="portrait" filters="role: alumni" style="tiny" %}
+{% include list_portrait.html data="members" component="portrait" filters="role: alumni" style="small" %}
