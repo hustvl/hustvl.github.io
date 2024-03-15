@@ -1,5 +1,5 @@
 ---
 name: Jiajun Cai
-image: images/members/jj_cai.png
+image: images/members/jj_cai.jpg
 role: ms
 ---
