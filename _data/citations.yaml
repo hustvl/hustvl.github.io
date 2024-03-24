@@ -2709,3 +2709,24 @@
   publisher: CVPR 2024
   date: 2024-02-27
   link: https://arxiv.org/abs/2401.17270
+
+- id: xu2025pixelhacker
+  title: "PixelHacker: Image Inpainting with Structural and Semantic Consistency"
+  authors:
+  - Ziyang Xu
+  - Kangsheng Duan
+  - Xiaolei Shen
+  - Zhifeng Ding
+  - Wenyu Liu
+  - Xiaohu Ruan
+  - Xiaoxin Chen
+  - Xinggang Wang
+  publisher: arXiv preprint
+  date: 2025-04-30
+  image: projects/PixelHacker/image_assets/method/Pipeline.png
+  link: https://arxiv.org/abs/2504.20438
+  buttons:
+  - type: code
+    link: https://github.com/hustvl/PixelHacker
+  - type: project_page
+    link: https://hustvl.github.io/projects/PixelHacker

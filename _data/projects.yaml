@@ -1,3 +1,13 @@
+- title: PixelHacker
+  subtitle: 
+  group: featured
+  image: projects/PixelHacker/image_assets/method/Pipeline.png
+  link: https://hustvl.github.io/projects/PixelHacker
+  description: We design a simple yet effective inpainting paradigm called latent categories guidance (LCG), and further propose a diffusion-based model named PixelHacker.
+  repo: greenelab/lab-website-template
+  tags:
+    - Diffusion Model
+
 - title: Cool Dataset
   subtitle: a subtitle
   group: featured
