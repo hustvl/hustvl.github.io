@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<!-- <html class="fontawesome-i2svg-active fontawesome-i2svg-complete"> -->
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <!-- HTML Meta Tags -->
+  <title>PixelHacker Project Page</title>
+  <meta name="description" content="PixelHacker: Image Inpainting with Structural and Semantic Consistency">
+  <title>PixelHacker: Image Inpainting with Structural and Semantic Consistency</title>
+
+  <link href="./assets/css_nerfies" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css_nerfies/bulma.min.css">
+  <link rel="stylesheet" href="./assets/css_nerfies/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./assets/css_nerfies/bulma-slider.min.css">
+  <link rel="stylesheet" href="./assets/css_nerfies/index_nerfies.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+  <section class="hero" style="background-color:#ffffff">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">
+              PixelHacker: Image Inpainting with Structural and Semantic Consistency
+            </h1>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://ziyangxu.top/" style="color: inherit; text-decoration: none;">Ziyang Xu</a><sup>1</sup>&nbsp</span>
+              <span class="author-block">
+                <a href="https://github.com/AnduinD" style="color: inherit; text-decoration: none;">Kangsheng Duan</a><sup>1</sup>&nbsp</span>
+              <span class="author-block">Xiaolei Shen<sup>2</sup>&nbsp</span>
+              <span class="author-block">Zhifeng Ding<sup>2</sup>&nbsp</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?user=D7jDk7gAAAAJ" style="color: inherit; text-decoration: none;">Wenyu Liu</a><sup>1</sup>&nbsp</span>
+              <span class="author-block">Xiaohu Ruan<sup>2</sup>&nbsp</span>
+              <span class="author-block"><a href="https://scholar.google.com/citations?hl=zh-CN&user=SI_oBwsAAAAJ" style="color: inherit; text-decoration: none;">Xiaoxin Chen</a><sup>2</sup>&nbsp</span>
+              <span class="author-block"><a href="https://xwcv.github.io/" style="color: inherit; text-decoration: none;">Xinggang Wang</a><sup>1</sup>&nbsp</span>
+            </div>
+            <!-- <br> -->
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Huazhong University of Science and Technology &nbsp</span>
+              <span class="author-block"><sup>2</sup>VIVO AI Lab &nbsp</span>
+            </div>
+            <!-- <br> -->
+            <!-- <div class="is-size-5 publication-venue">In submission</div> -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <a
+                  href="https://arxiv.org/abs/2504.20438"
+                  class="external-link button is-rounded is-black"
+                  style="text-decoration: none;"
+                >
+                  arXiv
+                </a>
+                <a
+                  href="https://github.com/hustvl/PixelHacker"
+                  class="external-link button is-rounded is-black"
+                  style="text-decoration: none;"
+                >
+                  Code (In Preparation)
+                </a>
+                <a>
+                  <a href=""
+                    class="external-link button is-rounded is-black"
+                    style="text-decoration: none;"
+                  >
+                  Demo (In Preparation)
+                </a>
+                <a
+                  href="#BibTeX"
+                  class="external-link button is-rounded is-black"
+                  style="text-decoration: none;"
+                >
+                  BibTex
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser"> <!--/ Abstract. -->
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Image inpainting is a fundamental research area between image editing and image generation. 
+              Recent state-of-the-art (SOTA) methods have explored novel attention mechanisms, lightweight architectures, and context-aware modeling, demonstrating impressive performance. 
+              However, they often struggle with complex structure (e.g., texture, shape, spatial relations) and semantics (e.g., color consistency, object restoration, and logical correctness), leading to artifacts and inappropriate generation. 
+              To address this challenge, we design a simple yet effective inpainting paradigm called latent categories guidance (LCG), and further propose a diffusion-based model named PixelHacker. 
+              Specifically, we first construct a large dataset containing 14 million image-mask pairs by annotating foreground and background (potential 116 and 21 categories, respectively). 
+              Then, we encode potential foreground and background representations separately through two fixed-size embeddings, and intermittently inject these features into the denoising process via linear attention. 
+              Finally, by pre-training on our dataset and fine-tuning on open-source benchmarks, we obtain PixelHacker. 
+              Extensive experiments show that PixelHacker comprehensively outperforms the SOTA on a wide range of datasets (Places, CelebA-HQ, and FFHQ) and exhibits remarkable consistency in both structure and semantics.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+      <!-- <hr> -->
+    </div>
+  </section>
+
+
+  <section class="hero is-small"> <!--/ Method. -->
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Method</h2>
+          <div class="content has-text-justified">
+            <img src="image_assets/method/Pipeline.png" >
+            <p>
+            Overall pipeline of our PixelHacker.
+            PixelHacker builds upon the latent diffusion architecture by introducing two fixed-size LCG embeddings to separately encode latent foreground and background features.
+            We employ linear attention to inject these latent features into the denoising process, enabling intermittent structural and semantic multiple interactions.
+            This design encourages the model to learn a data distribution that is both structurally and semantically consistent.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--/ Method. -->
+      <!-- <hr> -->
+    </div>
+  </div>
+  </section>
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Visualizations</h2>
+          <div class="content has-text-justified">
+
+          <h3 class="title is-5 has-text-centered">- Natural Scenes -</h3>
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/gen_badcase21_gt.png" class="original-image" alt="Input Image 2">
+                      <img src="image_assets/removal/gen_badcase21_ours4.png" class="hover-image" alt="Output Image 2">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_097_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_097_1_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_21_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_21_1_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div> 
+            </div>
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_18_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_18_1_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_19_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_19_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_02_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_02_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_09_2_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_09_2_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div> 
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_10_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_10_1_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_10_3_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_10_3_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_062_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_062_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div> 
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_063_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_063_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_071_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_071_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_070_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_070_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_16_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_16_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_053_2_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_053_2_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/places/sup/Places365_test_00009949_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/places/sup/Places365_test_00009949_ours2.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_12_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_12_1_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/places/sup/Places365_test_00000065_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/places/sup/Places365_test_00000065_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_13_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_13_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_07_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_07_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_088_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_088_1_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div> 
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_27_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_27_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div> 
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_061_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_061_1_ours4.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/removal/camera_diff_org_08_1_gt.png" class="original-image" alt="Input Image 1">
+                      <img src="image_assets/removal/camera_diff_org_08_1_ours2.png" class="hover-image" alt="Output Image 1">
+                    </div>
+                </div>
+              </div> 
+            </div>
+
+            <!-- 竖图3：4 -->
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_222.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_222_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_119.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_119_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_886.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_886_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_88.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_88_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_327.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_327_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_389.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_389_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 竖图3：4 -->
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_1040.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_1040_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_1167.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_1167_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_96.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_96_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 宽图4：3 -->
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered fixed-width">
+                <div class="card">
+                    <div class="image-container widescreen-4-3">
+                      <img src="image_assets/xiao_v41/20240712_pic_489.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_489_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container portrait-3-4">
+                      <img src="image_assets/xiao_v41/20240712_pic_348.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_348_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered fixed-width">
+                <div class="card">
+                    <div class="image-container widescreen-4-3">
+                      <img src="image_assets/xiao_v41/20240712_pic_962.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_962_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 宽图4：3 -->
+            <div class="columns fixed-center-columns">
+
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container widescreen-4-3">
+                      <img src="image_assets/xiao_v41/20240712_pic_921.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_921_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container widescreen-4-3">
+                      <img src="image_assets/xiao_v41/20240712_pic_373.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/xiao_v41/20240712_pic_373_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+          <h3 class="title is-5 has-text-centered">- Human-faces -</h3>
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/3690_002251_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/3690.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/ffhq/img00000063_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/ffhq/00063_ours2.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/ffhq/sup/img00000050_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/ffhq/sup/00050_ours2.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/2546_001695_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/2546.png_ours2 highlight.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/9923_002981_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/9923.png_ours4.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/3243_002203_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/3243.png_ours3 highlight.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/2732_001901_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/2732.png_ours3 highlight.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/16265_000702_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/16265.png_ours4.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/3263_002204_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/3263.png_ours2 highlight.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/4927_002374_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/4927.png_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/375_002263_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/375.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/1128_000152_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/1128.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/1230_000259_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/1230.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/2312_001427_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/2312.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/more/2335_001451_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/more/2335.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/ffhq/img00000028_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/ffhq/00028_ours2.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/ffhq/img00009938_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/ffhq/09938_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/ffhq/img00009939_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/ffhq/09939_ours2.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/ffhq/sup/img00000032_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/ffhq/sup/00032_ours2.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/sup/15609_000624_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/sup/15609.png_ours4.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="columns fixed-center-columns">
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/sup/607_002508_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/sup/607.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/sup/808_002759_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/sup/808.png_ours3.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/sup/3235_002202_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/sup/3235.png_ours.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/sup/5676_002466_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/sup/5676.png_ours4.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column has-text-centered">
+                <div class="card">
+                  <div class="card-image">
+                    <div class="image-container">
+                      <img src="image_assets/celebahq/sup/12594_000295_gt.png" class="original-image" alt="Input Image 17">
+                      <img src="image_assets/celebahq/sup/12594.png_ours4.png" class="hover-image" alt="Output Image 17">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Comparison on Places2</h2>
+          <div class="content has-text-justified">
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+                <img src="image_assets/places_cases.png" width="700px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Comparison on CelebA-HQ</h2>
+          <div class="content has-text-justified">
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+                <img src="image_assets/celeba_cases.png" width="700px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Comparison on FFHQ</h2>
+          <div class="content has-text-justified">
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+                <img src="image_assets/ffhq_cases.png" width="700px">
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <hr> -->
+  <!-- References -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop bibtex-container">
+      <h2 class="title" style="text-align: left; color: #212121;">BibTeX</h2>
+      <pre><code>@misc{xu2025pixelhacker,
+      title={PixelHacker: Image Inpainting with Structural and Semantic Consistency}, 
+      author={Ziyang Xu and Kangsheng Duan and Xiaolei Shen and Zhifeng Ding and Wenyu Liu and Xiaohu Ruan and Xiaoxin Chen and Xinggang Wang},
+      year={2025},
+      eprint={2504.20438},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2504.20438}, 
+}</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p style="text-align: center">
+            Thanks to website template <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+  <script defer="" src="./assets/js_nerfies/fontawesome.all.min.js"></script>
+  <script src="./assets/js_nerfies/bulma-carousel.min.js"></script>
+  <script src="./assets/js_nerfies/bulma-slider.min.js"></script>
+  <script src="./assets/js_nerfies/index.js"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
