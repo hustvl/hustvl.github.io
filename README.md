@@ -1,6 +1,6 @@
 # HUSTVL Lab Website
 
-Visit **[hustvl.github.io](https://hustvl.github.io)** 🚀
+Visit **[hustvl.github.io/website-backup](https://hustvl.github.io/website-backup)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
