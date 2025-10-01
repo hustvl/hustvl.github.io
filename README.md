@@ -1,4 +1,4 @@
-# HUSTVL Lab Website
+# HUST Vision Lab Website
 
 Visit **[hustvl.github.io](https://hustvl.github.io)** 🚀
 
@@ -16,6 +16,10 @@ https://jekyllrb.com/docs/installation/ubuntu/
 
 Install needed Ruby packages by running `bundle install`.
 
+## Gallery
+
+https://greene-lab.gitbook.io/lab-website-template-docs/introduction/gallery
+
 ## Usage
 
 Preview the cite by running
@@ -23,3 +27,5 @@ Preview the cite by running
 ```
 bundle exec jekyll serve --open-url --livereload --trace
 ```
+
+Group members are in `_members`.
