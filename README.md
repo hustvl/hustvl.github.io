@@ -1,3 +1,5 @@
+Visit **[hustvl.github.io](https://hustvl.github.io)** 🚀
+
 # HUST Vision Lab Website
 
 This is the official website for the HUST Vision Lab, built using the [Lab Website Template (LWT)](https://github.com/greenelab/lab-website-template).
