@@ -1,4 +1,4 @@
-Visit **[hustvl.github.io](https://hustvl.github.io)** 🚀
+Visit **[hustvl.github.io/lab-website](https://hustvl.github.io/lab-website)** 🚀
 
 # HUST Vision Lab Website
 
