@@ -80,6 +80,13 @@
   font-weight: var(--semi-bold);
 }
 
+.portrait-name,
+.portrait-description {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
 .portrait[data-style="tiny"] {
   .portrait-description,
   .portrait-affiliation {
