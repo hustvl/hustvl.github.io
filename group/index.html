@@ -37,25 +37,29 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Group | HUSTVL</title>
+<title>Group | HUST Vision Lab</title>
 
-<link rel="icon" href="/images/assets/icon.png">
+<link rel="icon" href="">
 
 <meta name="title" content="Group">
-<meta name="description" content="HUST Vision Lab. ">
+<meta name="description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
 
 <meta property="og:title" content="Group">
-<meta property="og:site_title" content="HUSTVL">
-<meta property="og:description" content="HUST Vision Lab. ">
-<meta property="og:url" content="">
+<meta property="og:site_title" content="HUST Vision Lab">
+<meta property="og:description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
+<meta property="og:url" content="https://hustvl.github.io">
 <meta property="og:image" content="">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="Group">
-<meta property="twitter:description" content="HUST Vision Lab. ">
-<meta property="twitter:url" content="">
+<meta property="twitter:description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
+<meta property="twitter:url" content="https://hustvl.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="">
 
@@ -70,29 +74,29 @@
       "@type": "WebSite",
     
     "name": "Group",
-    "description": "HUST Vision Lab. ",
+    "description": "at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).",
     "headline": "Group",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/assets/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "" }
     },
-    "url": ""
+    "url": "https://hustvl.github.io"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://hustvl.github.io/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Noto+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Ubuntu:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Noto+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -330,6 +338,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -353,6 +363,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -367,7 +379,7 @@
 
 
 
-<header class="background" style="--image: url('/images/assets/bg_deep_neural_network.webp')" data-dark="true">
+<header class="background" style="--image: url('/images/assets/background.jpg')" data-dark="true">
   <a href="/" class="home">
     
       <span class="logo">
@@ -377,12 +389,12 @@
       </span>
     
     
-      <span class="title">
+      <span class="title-text">
         
-          <span>HUSTVL</span>
+          <span class="title">HUST Vision Lab</span>
         
         
-          <span>HUST Vision Lab</span>
+          <span class="subtitle">at Huazhong University of Science and Technology</span>
         
       </span>
     
@@ -425,11 +437,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -452,26 +461,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="" aria-label="Xinggang Wang">
-    <img src="https://xwcv.github.io/res/xw22head.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="https://xwcv.github.io/res/xw-standard.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Xinggang Wang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>Full Profecessor</span>
-          </span>
-        
+      <span class="portrait-name">
+        Xinggang Wang
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Profecessor
+      </span>
+    
+
     
   </a>
 
@@ -503,26 +514,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="" aria-label="Wenyu Liu">
-    <img src="/images/members/wy_liu.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/lwy.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Wenyu Liu
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>Full Profecessor</span>
-          </span>
-        
+      <span class="portrait-name">
+        Wenyu Liu
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Profecessor
+      </span>
+    
+
     
   </a>
 
@@ -530,7 +543,7 @@
     <div class="portrait-links">
       
         <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://xwcv.github.io/" target="_blank" rel="noopener" title="Personal Website" text-decoration-line="none">
+          <a href="https://eic.hust.edu.cn/professor/liuwenyu/" target="_blank" rel="noopener" title="Personal Website" text-decoration-line="none">
             <i class="fas fa-house"></i>
           </a>
         </div>
@@ -559,9 +572,9 @@
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="students">Students</h2>
@@ -573,128 +586,28 @@
 
       
 
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Shaoyu Chen">
-    <img src="/images/members/sy_chen.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Shaoyu Chen
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://scholar.google.com/citations?user=PIeNN2gAAAAJ" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
-            <i class="fab fa-google"></i>
-          </a>
-        </div>
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/outsidercsy" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
-
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Tianheng Cheng">
-    <img src="/images/members/th_cheng.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Tianheng Cheng
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://scholar.google.com/citations?user=PH8rJHYAAAAJ" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
-            <i class="fab fa-google"></i>
-          </a>
-        </div>
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/wondervictor" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
 
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Bencheng Liao">
-    <img src="/images/members/bc_liao.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/lbc.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Bencheng Liao
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Bencheng Liao
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -726,26 +639,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Bo Jiang">
-    <img src="/images/members/b_jiang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/jb.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Bo Jiang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Bo Jiang
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -777,47 +692,49 @@
 
       
 
+
+
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Cheng Wang">
-    <img src="/images/members/c_wang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Guanjun Wu">
+    
+      
+    
+
+    <img src="/images/members/wgj.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Cheng Wang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Guanjun Wu
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
   
     <div class="portrait-links">
       
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="https://guanjunwu.github.io/" target="_blank" rel="noopener" title="Personal Website" text-decoration-line="none">
+            <i class="fas fa-house"></i>
+          </a>
+        </div>
+      
 
       
         <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://scholar.google.com/citations?user=PdJIyPIAAAAJ" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
+          <a href="https://scholar.google.com/citations?user=2OrWci8AAAAJ&hl=zh-CN" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
             <i class="fab fa-google"></i>
           </a>
         </div>
       
 
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/wangchust" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
       
     </div>
   
@@ -828,26 +745,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jingfeng Yao">
-    <img src="/images/members/jf_yao.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/yjf.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jingfeng Yao
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Jingfeng Yao
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -879,26 +798,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Lianghui Zhu">
-    <img src="/images/members/lh_zhu.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/zlh.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Lianghui Zhu
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Lianghui Zhu
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -906,6 +827,12 @@
     <div class="portrait-links">
       
 
+      
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="https://scholar.google.com/citations?user=NvMHcs0AAAAJ" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
+            <i class="fab fa-google"></i>
+          </a>
+        </div>
       
 
       
@@ -924,26 +851,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yiang Shi">
-    <img src="/images/members/ya_shi.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Shuai Zhang">
+    
+      
+    
+
+    <img src="/images/members/zs.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Yiang Shi
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Shuai Zhang
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -952,10 +881,16 @@
       
 
       
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="https://scholar.google.com/citations?user=jEjHhDUAAAAJ" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
+            <i class="fab fa-google"></i>
+          </a>
+        </div>
+      
 
       
         <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/shawnsya" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
+          <a href="https://github.com/Shuaizhang7" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -969,26 +904,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Haoyi Jiang">
-    <img src="/images/members/hy_jiang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/jhy.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Haoyi Jiang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Haoyi Jiang
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -1020,26 +957,147 @@
 
       
 
+
+
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Taoran Yi">
-    <img src="/images/members/tr_yi.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yuhan Li">
+    
+      
+    
+
+    <img src="/images/members/lyh.JPG" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Taoran Yi
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Yuhan Li
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yiang Shi">
+    
+      
+    
+
+    <img src="/images/members/sya.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Yiang Shi
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
+    
+  </a>
+
+  
+    <div class="portrait-links">
+      
+
+      
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="https://scholar.google.com/citations?user=AWZwS8AAAAAJ" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
+            <i class="fab fa-google"></i>
+          </a>
+        </div>
+      
+
+      
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="https://github.com/shawnsya" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      
+    </div>
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Sixu Yan">
+    
+      
+    
+
+    <img src="/images/members/ysx.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Sixu Yan
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Taoran Yi">
+    
+      
+    
+
+    <img src="/images/members/ytr.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Taoran Yi
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -1077,49 +1135,31 @@
 
       
 
+
+
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Guanjun Wu">
-    <img src="/images/members/gj_wu.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yueting Zhu">
+    
+      
+    
+
+    <img src="/images/members/zyt.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Guanjun Wu
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Yueting Zhu
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
-  
-    <div class="portrait-links">
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://guanjunwu.github.io/" target="_blank" rel="noopener" title="Personal Website" text-decoration-line="none">
-            <i class="fas fa-house"></i>
-          </a>
-        </div>
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://scholar.google.com/citations?user=2OrWci8AAAAJ&hl=zh-CN" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
-            <i class="fab fa-google"></i>
-          </a>
-        </div>
-      
-
-      
-    </div>
   
 </div>
 
@@ -1128,82 +1168,28 @@
 
       
 
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Shuai Zhang">
-    <img src="/images/members/s_zhang.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Shuai Zhang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>PhD Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://scholar.google.com/citations?user=jEjHhDUAAAAJ" target="_blank" rel="noopener" title="Google" text-decoration-line="none">
-            <i class="fab fa-google"></i>
-          </a>
-        </div>
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/Shuaizhang7" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-  </div>
-
-<div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
-
-    
-      
-
-      
 
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Shusheng Yang">
-    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Kangsheng Duan">
+    
+      
+    
+
+    <img src="/images/members/dks.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Shusheng Yang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Kangsheng Duan
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -1215,7 +1201,7 @@
 
       
         <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/vealocia" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
+          <a href="https://github.com/AnduinD" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
             <i class="fab fa-github"></i>
           </a>
         </div>
@@ -1229,71 +1215,28 @@
 
       
 
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Zhenghong Zhou">
-    <img src="/images/members/zh_zhou.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Zhenghong Zhou
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/zhouzhenghong-gt" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
 
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jiajun Cai">
-    <img src="/images/members/jj_cai.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Kaisong Ji">
+    
+      
+    
+
+    <img src="/images/members/jks.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jiajun Cai
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Kaisong Ji
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -1305,237 +1248,28 @@
 
       
 
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jiawei Liu">
-    <img src="/images/members/jw_liu.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jiawei Liu
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/jiawei-liu1103" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
-
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Lang Ye">
-    <img src="/images/members/l_ye.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Lang Ye
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/YeL6" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
-
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Lianjun Wu">
-    <img src="/images/members/lj_wu.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Lianjun Wu
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/wulianjun-112" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
-
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yuxuan Zhang">
-    <img src="" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Yuxuan Zhang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-</div>
-
-    
-      
-
-      
-
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Ziwei Cui">
-    <img src="https://avatars.githubusercontent.com/u/117881100" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Ziwei Cui
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/ziwei-cui" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
 
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Ziyang Xu">
-    <img src="/images/members/zy_xu.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/xzy.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Ziyang Xu
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Ziyang Xu
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -1573,71 +1307,28 @@
 
       
 
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Hao Gao">
-    <img src="/images/members/h_gao.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Hao Gao
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
-      </span>
-    
-  </a>
-
-  
-    <div class="portrait-links">
-      
-
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/HGao-cv/" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
-  
-</div>
-
-    
-      
-
-      
 
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jialv Zou">
-    <img src="/images/members/jl_zou.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/zjl.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jialv Zou
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Jialv Zou
       </span>
+    
+
+    
+      <span class="portrait-description">
+        PhD Student
+      </span>
+    
+
     
   </a>
 
@@ -1665,47 +1356,40 @@
 </div>
 
     
-      
+  </div>
 
-      
-
-<div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Kangsheng Duan">
-    <img src="/images/members/ks_duan.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+<div style="display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Kangsheng Duan
-          </span>
-        
+      
 
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Fei Gao">
+    
+      
+    
+
+    <img src="/images/members/gf.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Fei Gao
       </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
     
   </a>
 
-  
-    <div class="portrait-links">
-      
-
-      
-
-      
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/AnduinD" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-      
-    </div>
   
 </div>
 
@@ -1714,26 +1398,127 @@
 
       
 
+
+
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yingyue Li">
-    <img src="/images/members/yy_li.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Xiangyu Guo">
+    
+      
+    
+
+    <img src="/images/members/gxy.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Yingyue Li
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Xiangyu Guo
       </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Rui Hu">
+    
+      
+    
+
+    <img src="/images/members/hr.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Rui Hu
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jia Lu">
+    
+      
+    
+
+    <img src="/images/members/lj.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Jia Lu
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yingyue Li">
+    
+      
+    
+
+    <img src="/images/members/lyy.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Yingyue Li
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
     
   </a>
 
@@ -1759,26 +1544,108 @@
 
       
 
+
+
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Ya Zou">
-    <img src="/images/members/y_zou.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Zongming Li">
+    
+      
+    
+
+    <img src="/images/members/lzm.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Ya Zou
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Zongming Li
       </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+    <div class="portrait-links">
+      
+
+      
+
+      
+        <div style="margin-left: 10px; margin-right: 10px;">
+          <a href="https://github.com/lzm2275965881" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      
+    </div>
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Weiheng Zhao">
+    
+      
+    
+
+    <img src="/images/members/zwh.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Weiheng Zhao
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Ya Zou">
+    
+      
+    
+
+    <img src="/images/members/zy.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Ya Zou
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
     
   </a>
 
@@ -1804,43 +1671,658 @@
 
       
 
+
+
 <div class="portrait-wrapper">
-  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Zongming Li">
-    <img src="/images/members/zm_li.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jiahao Guo">
+    
+      
+    
+
+    <img src="/images/members/gjh.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Zongming Li
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>MS Student</span>
-          </span>
-        
+      <span class="portrait-name">
+        Jiahao Guo
       </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
     
   </a>
 
   
-    <div class="portrait-links">
+</div>
+
+    
       
 
       
 
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Binhua Huang">
+    
       
-        <div style="margin-left: 10px; margin-right: 10px;">
-          <a href="https://github.com/lzm2275965881" target="_blank" rel="noopener" title="Github" text-decoration-line="none">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
+    
+
+    <img src="/images/members/hbh.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Binhua Huang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
       
-    </div>
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jie Li">
+    
+      
+    
+
+    <img src="/images/members/ljie.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Jie Li
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Bin Ouyang">
+    
+      
+    
+
+    <img src="/images/members/oyb.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Bin Ouyang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Zixuan Qian">
+    
+      
+    
+
+    <img src="/images/members/qzx.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Zixuan Qian
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yuehao Song">
+    
+      
+    
+
+    <img src="/images/members/syh.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Yuehao Song
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Bao Tang">
+    
+      
+    
+
+    <img src="/images/members/tb.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Bao Tang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Shikang Wang">
+    
+      
+    
+
+    <img src="/images/members/wsk.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Shikang Wang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Siyuan Yu">
+    
+      
+    
+
+    <img src="/images/members/ysy.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Siyuan Yu
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Can Zhang">
+    
+      
+    
+
+    <img src="/images/members/zc.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Can Zhang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Wenrui Zhang">
+    
+      
+    
+
+    <img src="/images/members/zwr.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Wenrui Zhang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Zimo Zhou">
+    
+      
+    
+
+    <img src="/images/members/zzm.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Zimo Zhou
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Ruting Jia">
+    
+      
+    
+
+    <img src="/images/members/jrt.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Ruting Jia
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Haoxuan Li">
+    
+      
+    
+
+    <img src="/images/members/lhx.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Haoxuan Li
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Yongkang Li">
+    
+      
+    
+
+    <img src="/images/members/lyk.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Yongkang Li
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Hongyuan Tao">
+    
+      
+    
+
+    <img src="/images/members/thy.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Hongyuan Tao
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Chuiyun Wu">
+    
+      
+    
+
+    <img src="/images/members/wcy.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Chuiyun Wu
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Shuzheng Wang">
+    
+      
+    
+
+    <img src="/images/members/wsz.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Shuzheng Wang
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Shanglin Yuan">
+    
+      
+    
+
+    <img src="/images/members/ysl.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Shanglin Yuan
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
+  
+</div>
+
+    
+      
+
+      
+
+
+
+<div class="portrait-wrapper">
+  <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Lunbin Zeng">
+    
+      
+    
+
+    <img src="/images/members/zlb.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name">
+        Lunbin Zeng
+      </span>
+    
+
+    
+      <span class="portrait-description">
+        MS Student
+      </span>
+    
+
+    
+  </a>
+
   
 </div>
 
@@ -1852,34 +2334,11 @@
   
   
 
-  <section class="background" data-size="2" data-dark="true" style="--image: url('/images/assets/bg_deep_neural_network.webp')">
-    <!--
-  background: images/assets/bg_deep_neural_network.webp;
-  dark: true;
-  size: 2;
--->
-
-<p>Join us in pushing the boundaries of innovation and discovery at our lab, where collaborative minds and cutting-edge research come together to make a meaningful impact.</p>
-
-<div class="button-wrapper">
-    <a class="button" href="/join" data-style="bare" data-flip="" aria-label="fa-solid fa-arrow-right">
-      <i class="icon fa-solid fa-arrow-right"></i>
-      
-        <span>Join Our Team</span>
-      
-    </a>
-  </div>
-  </section>
-
-  
-  
-  
-
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="alumni">Alumni</h2>
@@ -1891,26 +2350,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Jiemin Fang">
+    
+      
+    
+
     <img src="https://jaminfong.cn/img/me.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Jiemin Fang
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>Huawei</span>
-          </span>
-        
+      <span class="portrait-name">
+        Jiemin Fang
       </span>
+    
+
+    
+      <span class="portrait-description">
+        Huawei
+      </span>
+    
+
     
   </a>
 
@@ -1948,26 +2409,28 @@
 
       
 
+
+
 <div class="portrait-wrapper">
   <a href="javascript:void(0)" class="portrait" data-style="small" aria-label="Zigang Zhao">
-    <img src="/images/members/zg_zhao.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
+    
+      
+    
+
+    <img src="/images/members/zzg.jpeg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Zigang Zhao
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            
-            <span>BZL</span>
-          </span>
-        
+      <span class="portrait-name">
+        Zigang Zhao
       </span>
+    
+
+    
+      <span class="portrait-description">
+        BZL
+      </span>
+    
+
     
   </a>
 
@@ -1983,7 +2446,7 @@
     
 
 
-<footer class="background" style="--image: url('/images/assets/bg_deep_neural_network.webp')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('/images/assets/background.jpg')" data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address
@@ -2071,8 +2534,8 @@
 
   <div>
     © 2025
-    HUSTVL
-     |  Built with
+    HUST Vision Lab
+      |   Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

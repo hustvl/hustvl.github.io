@@ -1,31 +1,32 @@
 [data-dark=false] {
-  --primary: #6750a4;
-  --secondary: #eaddff;
-  --text: #1D1B20;
+  --primary: #005bac;
+  --secondary: #00afec;
+  --text: #1d1b20;
   --background: #fefefe;
-  --background-alt: #f8f8f8;
-  --light-gray: #e0e0e0;
-  --gray: #808080;
+  --background-alt: #f0f0f0;
+  --light-gray: #cac4d0;
+  --gray: #79747e;
+  --dark-gray: #49454f;
   --overlay: #00000020;
 }
 
 [data-dark=true] {
-  --primary: #d0bcff;
-  --secondary: #4f378b;
+  --primary: #00afec;
+  --secondary: #00afec;
   --text: #e6e0e9;
-  --background: #181818;
-  --background-alt: #1c1c1c;
-  --light-gray: #404040;
-  --gray: #808080;
+  --background: #141218;
+  --background-alt: #141218;
+  --light-gray: #cac4d0;
+  --gray: #938f99;
+  --dark-gray: #49454f;
   --overlay: #ffffff10;
 }
 
 :root {
-  --title: "Ubuntu", sans-serif;
-  --heading: "Ubuntu", sans-serif;
+  --title: "Noto Sans", sans-serif;
+  --heading: "Noto Sans", sans-serif;
   --body: "Noto Sans", sans-serif;
   --code: "Roboto Mono", monospace;
-  --medium: 1rem;
   --large: 1.2rem;
   --xl: 1.4rem;
   --xxl: 1.6rem;
@@ -34,8 +35,10 @@
   --semi-bold: 500;
   --bold: 600;
   --spacing: 2;
-  --rounded: 12px;
+  --compact: 1.5;
+  --rounded: 16px;
   --shadow: 0 0 0px 0 var(--overlay);
+  --transition: 0.2s ease;
 }
 
 /*# sourceMappingURL=-theme.css.map */

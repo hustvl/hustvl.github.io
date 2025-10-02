@@ -37,25 +37,29 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>404 | HUSTVL</title>
+<title>404 | HUST Vision Lab</title>
 
-<link rel="icon" href="/images/assets/icon.png">
+<link rel="icon" href="">
 
 <meta name="title" content="404">
-<meta name="description" content="HUST Vision Lab. ">
+<meta name="description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
 
 <meta property="og:title" content="404">
-<meta property="og:site_title" content="HUSTVL">
-<meta property="og:description" content="HUST Vision Lab. ">
-<meta property="og:url" content="">
+<meta property="og:site_title" content="HUST Vision Lab">
+<meta property="og:description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
+<meta property="og:url" content="https://hustvl.github.io">
 <meta property="og:image" content="">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="404">
-<meta property="twitter:description" content="HUST Vision Lab. ">
-<meta property="twitter:url" content="">
+<meta property="twitter:description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
+<meta property="twitter:url" content="https://hustvl.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="">
 
@@ -70,29 +74,29 @@
       "@type": "WebSite",
     
     "name": "404",
-    "description": "HUST Vision Lab. ",
+    "description": "at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).",
     "headline": "404",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/assets/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "" }
     },
-    "url": ""
+    "url": "https://hustvl.github.io"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://hustvl.github.io/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Noto+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Ubuntu:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Noto+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -303,6 +311,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -317,7 +327,7 @@
 
 
 
-<header class="background" style="--image: url('/images/assets/bg_deep_neural_network.webp')" data-dark="true">
+<header class="background" style="--image: url('/images/assets/background.jpg')" data-dark="true">
   <a href="/" class="home">
     
       <span class="logo">
@@ -327,12 +337,12 @@
       </span>
     
     
-      <span class="title">
+      <span class="title-text">
         
-          <span>HUSTVL</span>
+          <span class="title">HUST Vision Lab</span>
         
         
-          <span>HUST Vision Lab</span>
+          <span class="subtitle">at Huazhong University of Science and Technology</span>
         
       </span>
     
@@ -375,11 +385,8 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
-
-
 
 
 
@@ -392,6 +399,15 @@
 
   <section class="background" data-size="page">
     <h1 id="-page-not-found">👋 Page Not Found</h1>
+
+<p class="center">Try searching the whole site for the content you want:</p>
+
+<form onsubmit="onSiteSearchSubmit(event)">
+  <input type="text" name="query" placeholder="Search site with Google">
+  <button type="submit" class="button" aria-label="search site">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</form>
   </section>
 
 
@@ -399,7 +415,7 @@
     
 
 
-<footer class="background" style="--image: url('/images/assets/bg_deep_neural_network.webp')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('/images/assets/background.jpg')" data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address
@@ -487,8 +503,8 @@
 
   <div>
     © 2025
-    HUSTVL
-     |  Built with
+    HUST Vision Lab
+      |   Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>

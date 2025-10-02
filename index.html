@@ -37,25 +37,29 @@
 
 
 
+
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>HUSTVL</title>
+<title>HUST Vision Lab</title>
 
-<link rel="icon" href="/images/assets/icon.png">
+<link rel="icon" href="">
 
 <meta name="title" content="">
-<meta name="description" content="HUST Vision Lab. ">
+<meta name="description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
 
 <meta property="og:title" content="">
-<meta property="og:site_title" content="HUSTVL">
-<meta property="og:description" content="HUST Vision Lab. ">
-<meta property="og:url" content="">
+<meta property="og:site_title" content="HUST Vision Lab">
+<meta property="og:description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
+<meta property="og:url" content="https://hustvl.github.io">
 <meta property="og:image" content="">
 <meta property="og:locale" content="en_US">
 
 <meta property="twitter:title" content="">
-<meta property="twitter:description" content="HUST Vision Lab. ">
-<meta property="twitter:url" content="">
+<meta property="twitter:description" content="at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).">
+<meta property="twitter:url" content="https://hustvl.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="">
 
@@ -70,29 +74,29 @@
       "@type": "WebSite",
     
     "name": "",
-    "description": "HUST Vision Lab. ",
+    "description": "at Huazhong University of Science and Technology. The Vision Lab led by Professor Xinggang Wang based at the Artificial Intelligence Institute, School of Electronic Information and Communications, Huazhong University of Science and Technology (HUST).",
     "headline": "",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/assets/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "" }
     },
-    "url": ""
+    "url": "https://hustvl.github.io"
   }
 </script>
 
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="alternate" type="application/rss+xml" href="https://hustvl.github.io/feed.xml">
 
   <!-- Google Fonts -->
 <!-- automatically get url from fonts used in theme file -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Noto+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Ubuntu:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Noto+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -156,6 +160,10 @@
 
   
     <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
   
 
   
@@ -330,6 +338,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -353,6 +363,8 @@
 
   <script src="/_scripts/site-search.js"></script>
 
+  <script src="/_scripts/table-wrap.js"></script>
+
   <script src="/_scripts/tooltip.js"></script>
 
 
@@ -367,7 +379,7 @@
 
 
 
-<header class="background" style="--image: url('/images/assets/bg_deep_neural_network.webp')" data-dark="true" data-big>
+<header class="background" style="--image: url('/images/assets/background.jpg')" data-dark="true" data-big>
   <a href="/" class="home">
     
       <span class="logo">
@@ -377,12 +389,12 @@
       </span>
     
     
-      <span class="title">
+      <span class="title-text">
         
-          <span>HUSTVL</span>
+          <span class="title">HUST Vision Lab</span>
         
         
-          <span>HUST Vision Lab</span>
+          <span class="subtitle">at Huazhong University of Science and Technology</span>
         
       </span>
     
@@ -425,7 +437,6 @@
   modify main content of page:
   - add section breaks
   - attach section properties
-  - wrap each table in div to allow for scrolling
   - filter out blank sections
 -->
 
@@ -434,21 +445,24 @@
 
 
 
-
-
   
   
   
 
   <section class="background" data-size="page">
-    <h1 id="hust-vision-lab">HUST Vision Lab</h1>
+    <p>The <strong>HUST Vision Lab</strong>, led by <strong><a href="https://xwcv.github.io/">Prof. Xinggang Wang</a></strong>, is a research group at the Artificial Intelligence Institute, School of Electronic Information and Communications, <strong><a href="https://www.hust.edu.cn/">Huazhong University of Science &amp; Technology (HUST)</a></strong>.</p>
 
-<p>The <strong>HUST Vision Lab (HUSTVL)</strong>, affiliated with <strong><a href="https://www.hust.edu.cn/">Huazhong University of Science and Technology (HUST)</a></strong>, stands as a leading research laboratory at the forefront of advancing general visual intelligence and perception.</p>
+<p>We are dedicated to pushing the frontiers of general visual intelligence and perception. Our core research areas include:</p>
 
-<p>Under the esteemed guidance of <strong><a href="https://xwcv.github.io/">Prof. Xinggang Wang</a></strong> and <strong><a href="https://eic.hust.edu.cn/professor/liuwenyu/">Prof. Wenyu Liu</a></strong>, our research endeavors span a wide spectrum of areas, encompassing <em>General Visual Recognition, Large Multimodal Models, Autonomous Driving, and 3D Generation</em>.</p>
+<ul>
+  <li>Multimodal Foundation Models</li>
+  <li>Visual Representation Learning</li>
+  <li>Object Detection, Segmentation, and Tracking</li>
+  <li>End-to-end Autonomous Driving</li>
+  <li>Novel Neural Architectures</li>
+</ul>
 
-<p>HUSTVL remains steadfast in its commitment to conducting top-notch research of utmost significance while nurturing exceptional talents.
-Driven by our unwavering passion for innovation, our <em>vision</em> is to propel this field in an open, inclusive and collaborative spirit together with fellow researchers worldwide, ultimately shaping the future of AGI.</p>
+<p>Our contributions to the field include a portfolio of influential works such as <a href="https://github.com/speedinghzl/CCNet">CCNet</a>, <a href="https://github.com/zjhuang22/maskscoring_rcnn">Mask Scoring R-CNN</a>, <a href="https://github.com/ifzhang/FairMOT">FairMOT</a>, <a href="https://github.com/FoundationVision/ByteTrack">ByteTrack</a>, <a href="https://github.com/baaivision/EVA">EVA</a>, <a href="https://github.com/hustvl/MapTR">MapTR</a>, <a href="https://github.com/hustvl/VAD">Vectorized Autonomous Driving (VAD)</a>, <a href="https://github.com/hustvl/DiffusionDrive">DiffusionDrive</a>, <a href="https://github.com/hustvl/Vim">Vision Mamba (Vim)</a>, <a href="https://github.com/hustvl/4DGaussians">4D Gaussian Splatting (4DGS)</a>, <a href="https://github.com/hustvl/YOLOS">YOLOS</a>, <a href="https://github.com/AILab-CVC/YOLO-World">YOLO-World</a>, and <a href="https://github.com/hustvl/LightningDiT">LightningDiT &amp; VA-VAE</a>.</p>
   </section>
 
   
@@ -457,9 +471,9 @@ Driven by our unwavering passion for innovation, our <em>vision</em> is to prope
 
   <section class="background" data-size="page">
     <!--
-  background: ;
-  dark: ;
-  size: ;
+  <background></background>
+  <dark></dark>
+  <size></size>
 -->
 
 <h2 id="highlights">Highlights</h2>
@@ -513,7 +527,7 @@ Driven by our unwavering passion for innovation, our <em>vision</em> is to prope
 </div>
 
 <div class="feature">
-  <a href="/team" class="feature-image" aria-label="Our Team">
+  <a href="/group" class="feature-image" aria-label="Our Team">
     <img src="/images/assets/photo.jpg" loading="lazy" alt="Our Team" onerror="this.src = '/images/assets/fallback.svg'; this.onerror = null;">
   </a>
   <div class="feature-text">
@@ -542,7 +556,7 @@ Driven by our unwavering passion for innovation, our <em>vision</em> is to prope
     
 
 
-<footer class="background" style="--image: url('/images/assets/bg_deep_neural_network.webp')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('/images/assets/background.jpg')" data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address
@@ -630,8 +644,8 @@ Driven by our unwavering passion for innovation, our <em>vision</em> is to prope
 
   <div>
     © 2025
-    HUSTVL
-     |  Built with
+    HUST Vision Lab
+      |   Built with
     <a href="https://github.com/greenelab/lab-website-template">
       Lab Website Template
     </a>
