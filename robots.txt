@@ -1,1 +1,1 @@
-Sitemap: https://hustvl.github.io/lab-website/sitemap.xml
+Sitemap: https://hustvl.github.io/sitemap.xml
