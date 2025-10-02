@@ -2,7 +2,10 @@
 ---
 
 .portrait-wrapper {
-  display: contents;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .portrait {
@@ -17,8 +20,14 @@
   text-decoration: none;
 }
 
+.portrait-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -15px;
+}
+
 .portrait[data-style="small"] {
-  width: 100px;
+  width: 125px;
 }
 
 .portrait[data-style="tiny"] {

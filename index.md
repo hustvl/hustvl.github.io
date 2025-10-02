@@ -1,14 +1,17 @@
 ---
 ---
 
-# HUST Vision Lab
+The **HUST Vision Lab**, led by **[Prof. Xinggang Wang](https://xwcv.github.io/)**, is a research group at the Artificial Intelligence Institute, School of Electronic Information and Communications, **[Huazhong University of Science & Technology (HUST)](https://www.hust.edu.cn/)**.
 
-The **HUST Vision Lab (HUSTVL)**, affiliated with **[Huazhong University of Science and Technology (HUST)](https://www.hust.edu.cn/)**, stands as a leading research laboratory at the forefront of advancing general visual intelligence and perception.
+We are dedicated to pushing the frontiers of general visual intelligence and perception. Our core research areas include:
 
-Under the esteemed guidance of **[Prof. Xinggang Wang](https://xwcv.github.io/)** and **[Prof. Wenyu Liu](https://eic.hust.edu.cn/professor/liuwenyu/)**, our research endeavors span a wide spectrum of areas, encompassing *General Visual Recognition, Large Multimodal Models, Autonomous Driving, and 3D Generation*.
+* Multimodal Foundation Models
+* Visual Representation Learning
+* Object Detection, Segmentation, and Tracking
+* End-to-end Autonomous Driving
+* Novel Neural Architectures
 
-HUSTVL remains steadfast in its commitment to conducting top-notch research of utmost significance while nurturing exceptional talents.
-Driven by our unwavering passion for innovation, our *vision* is to propel this field in an open, inclusive and collaborative spirit together with fellow researchers worldwide, ultimately shaping the future of AGI.
+Our contributions to the field include a portfolio of influential works such as [CCNet](https://github.com/speedinghzl/CCNet), [Mask Scoring R-CNN](https://github.com/zjhuang22/maskscoring_rcnn), [FairMOT](https://github.com/ifzhang/FairMOT), [ByteTrack](https://github.com/FoundationVision/ByteTrack), [EVA](https://github.com/baaivision/EVA), [MapTR](https://github.com/hustvl/MapTR), [Vectorized Autonomous Driving (VAD)](https://github.com/hustvl/VAD), [DiffusionDrive](https://github.com/hustvl/DiffusionDrive), [Vision Mamba (Vim)](https://github.com/hustvl/Vim), [4D Gaussian Splatting (4DGS)](https://github.com/hustvl/4DGaussians), [YOLOS](https://github.com/hustvl/YOLOS), [YOLO-World](https://github.com/AILab-CVC/YOLO-World), and [LightningDiT & VA-VAE](https://github.com/hustvl/LightningDiT).
 
 {% include section.html %}
 
@@ -80,7 +83,7 @@ Composed of exceptional researchers and led by renowned experts, our team is ded
 {%
   include feature.html
   image="images/assets/photo.jpg"
-  link="team"
+  link="group"
   title="Our Team"
   text=text
 %}

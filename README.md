@@ -1,31 +1,28 @@
 # HUST Vision Lab Website
 
-Visit **[hustvl.github.io](https://hustvl.github.io)** 🚀
+This is the official website for the HUST Vision Lab, built using the [Lab Website Template (LWT)](https://github.com/greenelab/lab-website-template).
 
-_Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+## Resources
 
-* [Lab Website Template](https://github.com/greenelab/lab-website-template) v1.1.6
-* [Template Docs](https://greene-lab.gitbook.io/lab-website-template-docs)
+* [Lab Website Template (LWT)](https://github.com/greenelab/lab-website-template)
+* [LWT Documentation](https://greene-lab.gitbook.io/lab-website-template-docs)
+* [LWT Gallery](https://greene-lab.gitbook.io/lab-website-template-docs/introduction/gallery)
 * [Jekyll](https://jekyllrb.com/)
+* [HUST Color Specification](https://vi.hust.edu.cn/jcbf/scgf/scxl.htm)
 * [Material Design Colors](https://m3.material.io/styles/color/static/baseline)
 * [Font Awesome Icons](https://fontawesome.com/)
 
-## Installation
+## Prerequisites
 
-https://jekyllrb.com/docs/installation/ubuntu/
-
-Install needed Ruby packages by running `bundle install`.
-
-## Gallery
-
-https://greene-lab.gitbook.io/lab-website-template-docs/introduction/gallery
+1. [Install Jekyll](https://jekyllrb.com/docs/installation/ubuntu/). For Windows users, it is recommended to use the WSL.
+2. Install needed Ruby packages by running `bundle install`.
 
 ## Usage
 
-Preview the cite by running
+Preview the website locally by running:
 
-```
+```bash
 bundle exec jekyll serve --open-url --livereload --trace
 ```
 
-Group members are in `_members`.
+Add, remove, or edit member profiles in the `_members` directory.

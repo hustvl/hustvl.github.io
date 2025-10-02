@@ -1,5 +1,5 @@
 {% if include.lookup %}
-  {% assign member = site.members 
+  {% assign member = site.members
     | where_exp: "member", "member.slug == include.lookup"
     | first
   %}
@@ -12,7 +12,7 @@
 <div class="portrait-wrapper">
   <a
     {% if page.slug != member.slug %}
-      href="{{ member.url | relative_url | uri_escape }}"
+      href="javascript:void(0)"
     {% endif %}
     class="portrait"
     data-style="{{ include.style }}"
