@@ -23,7 +23,7 @@ nav:
 
 {% include figure.html image="https://www.hust.edu.cn/images/22/09/29/19if1x5duh/jianzhu14.jpg" caption="Huazhong University of Science and Technology" %}
 {% include figure.html image="https://www.hust.edu.cn/images/22/09/29/19if1x5duh/jianzhu1.jpg" caption="School of Electronic Information and Communications (EIC)" %}
-{% include figure.html image="images/assets/photo.jpg" %}
+{% include figure.html image="images/assets/group_photo.jpg" caption="HUSTVL Group" %}
 
 {% endcapture %}
 

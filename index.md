@@ -19,7 +19,7 @@ Our contributions to the field include a portfolio of influential works such as 
 
 {% capture text %}
 
-Explore the cutting-edge of visual intelligence and perception. Our work encompasses a wide range of topics including General Visual Recognition, Large Multimodal Models, Autonomous Driving, and 3D Generation.
+Our lab pioneers cutting-edge research in visual intelligence and perception. We focus on foundational challenges and innovative applications across General Visual Intelligence, Multimodal Foundation Models, Autonomous Driving, and 3D Generation to shape the future of AI.
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Explore the cutting-edge of visual intelligence and perception. Our work encompa
 
 {%
   include feature.html
-  image="https://github.com/hustvl/Vim/raw/main/assets/vim_pipeline_v1.9.png"
+  image="https://github.com/hustvl/LightningDiT/raw/main/images/vis.png"
   link="research"
   title="Our Research"
   text=text
@@ -42,7 +42,7 @@ Explore the cutting-edge of visual intelligence and perception. Our work encompa
 
 {% capture text %}
 
-From advancing AI capabilities to developing real-world applications, our projects reflect a commitment to innovation and excellence. Discover how we’re pushing the boundaries of what’s possible.
+Our projects transform cutting-edge research into solutions with real-world impact. From open-source models to pioneering applications, we are dedicated to tackling key challenges and driving technological progress.
 
 {%
   include button.html
@@ -57,7 +57,7 @@ From advancing AI capabilities to developing real-world applications, our projec
 
 {%
   include feature.html
-  image="https://github.com/hustvl/Vim/raw/main/assets/vim_teaser_v1.7.png"
+  image="https://github.com/hustvl/DiffusionDrive/raw/main/assets/left_0.png"
   link="projects"
   title="Our Projects"
   flip=true
@@ -67,12 +67,12 @@ From advancing AI capabilities to developing real-world applications, our projec
 
 {% capture text %}
 
-Composed of exceptional researchers and led by renowned experts, our team is dedicated to shaping the future of artificial general intelligence. Meet the brilliant minds behind our groundbreaking work.
+Our group consists of exceptional researchers and is led by distinguished experts in the field. United by a passion for innovation, we are dedicated to shaping the future of artificial general intelligence. Get to know the brilliant minds driving our groundbreaking work.
 
 {%
   include button.html
   link="group"
-  text="Meet our team"
+  text="Meet our group"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -82,8 +82,8 @@ Composed of exceptional researchers and led by renowned experts, our team is ded
 
 {%
   include feature.html
-  image="images/assets/photo.jpg"
+  image="images/assets/group_photo.jpg"
   link="group"
-  title="Our Team"
+  title="Our Group"
   text=text
 %}

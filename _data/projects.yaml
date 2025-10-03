@@ -1,47 +1,42 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+- title: Foundation Models for Computer Vision
+  subtitle: Building powerful and efficient backbones for visual recognition
   group: featured
-  image: images/assets/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://github.com/hustvl/Vim/raw/main/assets/vim_pipeline_v1.9.png
+  link: https://github.com/hustvl/Vim
+  description: We are dedicated to building the next generation of visual representation models that are both powerful and efficient. Our research explores novel architectures, from high-resolution networks (HRNet) and cutting-edge Vision Transformers (EVA) to State Space Models (Vision Mamba). These foundational models serve as robust backbones for a wide array of downstream vision tasks.
   tags:
-    - resource
+    - Foundation Models
+    - Visual Representation
+    - Efficient AI
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: 3D Scene Understanding and Generation
+  subtitle: Innovating techniques to perceive, reconstruct, and generate the 3D world
   group: featured
-  image: images/assets/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://guanjunwu.github.io/media/4dgs.gif
+  link: https://guanjunwu.github.io/4dgs
+  description: Our group is at the forefront of 3D vision. Our work spans from real-time dynamic scene rendering with 4D Gaussian Splatting to fast text-to-3D asset creation using GaussianDreamer. We aim to create immersive and interactive 3D experiences by bridging the gap between 2D images and 3D understanding.
   tags:
-    - resource
+    - 3D Vision
+    - Generative Models
+    - Scene Reconstruction
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/assets/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Perception for Autonomous Driving
+  subtitle: Developing robust and reliable perception systems for self-driving
+  group: featured
+  image: https://github.com/hustvl/VAD/raw/main/assets/vad_demo.gif
+  link: https://github.com/hustvl/VAD
+  description: We are developing the full stack for autonomous driving perception. Our research covers online HD map construction (MapTR), 3D object detection, and end-to-end vectorized driving systems (VAD). Our goal is to create AI that can safely and efficiently navigate complex real-world traffic scenarios.
   tags:
-    - resource
-    - publication
+    - Autonomous Driving
+    - 3D Perception
+    - End-to-End Systems
 
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/assets/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+- title: Open-World Object Understanding
+  subtitle: Enabling AI to detect and track any object in the open world
+  image: https://github.com/AILab-CVC/YOLO-World/raw/main/assets/yolo-world.gif
+  link: https://github.com/AILab-CVC/YOLO-World
+  description: Our research pushes beyond traditional closed-set recognition. We develop methods for real-time open-vocabulary object detection (YOLO-World) and robust multi-object tracking in complex scenes (ByteTrack). Our work allows models to detect and track any object described by natural language, making AI more flexible and adaptable.
   tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/assets/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - Object Detection
+    - Multi-Object Tracking
+    - Open Vocabulary
